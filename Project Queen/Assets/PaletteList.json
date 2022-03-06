@@ -1,0 +1,1793 @@
+[
+  {
+    "Name": "SkinColor",
+    "Palettes": [
+      {
+        "IsSpecial": false,
+        "Name": "SkinColor1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "SkinColor2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "SkinColor3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "SkinColor4"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "SkinColor5"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "SkinColor6"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "SkinColor7"
+      }
+    ]
+  },
+  {
+    "Name": "HairColor",
+    "Palettes": [
+      {
+        "IsSpecial": false,
+        "Name": "HairColorBlack"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "HairColorBlack2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "HairColorBrown"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "HairColorBrown2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "HairColorAsh"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "HairColorAsh2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "HairColorBlonde"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "HairColorBlonde2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "HairColorBlonde3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "HairColorGinger"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Gray1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PastelColor1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PastelColor2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PastelColor3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PastelColor4"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Red2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Red3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Yellow1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Yellow2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Yellow3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Green1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Blue1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Blue2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Blue3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Violet1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Violet2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Violet3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Pink1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Red1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Gray2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Gray3"
+      }
+    ]
+  },
+  {
+    "Name": "HairColorMesh",
+    "Palettes": [
+      {
+        "IsSpecial": false,
+        "Name": "HairColorBlack"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "HairColorBlack2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "HairColorBrown"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "HairColorBrown2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "HairColorAsh"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "HairColorAsh2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "HairColorBlonde"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "HairColorBlonde2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "HairColorBlonde3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "HairColorGinger"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Gray1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PastelColor1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PastelColor2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PastelColor3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PastelColor4"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Red2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Red3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Yellow1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Yellow2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Yellow3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Green1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Blue1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Blue2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Blue3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Violet1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Violet2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Violet3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Pink1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Red1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Gray2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Gray3"
+      }
+    ]
+  },
+  {
+    "Name": "EyeLineColor",
+    "Palettes": [
+      {
+        "IsSpecial": false,
+        "Name": "PresetColor_Makeup1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PresetColor_Makeup2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PresetColor_Makeup3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PresetColor_Makeup4"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Gray1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PastelColor1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PastelColor2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PastelColor3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PastelColor4"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Red2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Red3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Yellow1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Yellow2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Yellow3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Green1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Blue1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Blue2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Blue3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Violet1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Violet2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Violet3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Pink1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Red1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Gray2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Gray3"
+      }
+    ]
+  },
+  {
+    "Name": "LipColor",
+    "Palettes": [
+      {
+        "IsSpecial": false,
+        "Name": "PresetColor_Makeup1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PresetColor_Makeup2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PresetColor_Makeup3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PresetColor_Makeup4"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Gray1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PastelColor1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PastelColor2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PastelColor3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PastelColor4"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Red2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Red3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Yellow1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Yellow2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Yellow3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Green1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Blue1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Blue2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Blue3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Violet1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Violet2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Violet3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Pink1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Red1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Gray2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Gray3"
+      }
+    ]
+  },
+  {
+    "Name": "BrowColor",
+    "Palettes": [
+      {
+        "IsSpecial": false,
+        "Name": "HairColorBlack"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "HairColorBlack2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "HairColorBrown"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "HairColorBrown2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "HairColorAsh"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "HairColorAsh2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "HairColorBlonde"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "HairColorBlonde2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "HairColorBlonde3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "HairColorGinger"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Gray1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PastelColor1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PastelColor2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PastelColor3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PastelColor4"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Red2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Red3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Yellow1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Yellow2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Yellow3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Green1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Blue1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Blue2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Blue3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Violet1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Violet2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Violet3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Pink1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Red1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Gray2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Gray3"
+      }
+    ]
+  },
+  {
+    "Name": "EyeColorBase",
+    "Palettes": [
+      {
+        "IsSpecial": false,
+        "Name": "EyeColorBrown"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "EyeColorGray"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "EyeColorAmber"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "EyeColorHazel"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "EyeColorGreen"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "EyeColorBlue"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "EyeColorViolet"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "EyeColorRed"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Gray1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PastelColor1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PastelColor2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PastelColor3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PastelColor4"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Red2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Red3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Yellow1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Yellow2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Yellow3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Green1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Blue1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Blue2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Blue3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Violet1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Violet2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Violet3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Pink1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Red1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Gray2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Gray3"
+      }
+    ]
+  },
+  {
+    "Name": "EyeColorPlus",
+    "Palettes": [
+      {
+        "IsSpecial": false,
+        "Name": "EyeColorBrown"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "EyeColorGray"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "EyeColorAmber"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "EyeColorHazel"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "EyeColorGreen"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "EyeColorBlue"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "EyeColorViolet"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "EyeColorRed"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Gray1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PastelColor1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PastelColor2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PastelColor3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PastelColor4"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Red2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Red3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Yellow1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Yellow2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Yellow3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Green1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Blue1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Blue2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Blue3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Violet1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Violet2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Violet3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Pink1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Red1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Gray2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Gray3"
+      }
+    ]
+  },
+  {
+    "Name": "FacePaintColor",
+    "Palettes": [
+      {
+        "IsSpecial": false,
+        "Name": "PresetColor_Makeup1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PresetColor_Makeup2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PresetColor_Makeup3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PresetColor_Makeup4"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Gray1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PastelColor1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PastelColor2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PastelColor3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PastelColor4"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Red2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Red3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Yellow1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Yellow2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Yellow3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Green1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Blue1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Blue2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Blue3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Violet1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Violet2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Violet3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Pink1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Red1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Gray2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Gray3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "InnerColorA"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "InnerColorB"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "InnerColorC"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "InnerColorD"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "InnerColorE"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "InnerColorF"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "InnerColorG"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PresetColor1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PresetColor2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PresetColor3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PresetColor4"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PresetColor6"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PresetColor7"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PresetColor8"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PresetColor9"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PresetColor5"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PresetColor10"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PresetColor11"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Red4"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "TextureCamouflage1"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "TextureCamouflage2"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "TextureCamouflage3"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Grungy"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Grungy2"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Grungy3"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Plaid1"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Plaid2"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Plaid3"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Plaid4"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Plaid5"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Plaid6"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Traditional"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Animal1"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Animal2"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Animal3"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Animal4"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Fancy"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Fancy2"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Fancy3"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Fancy6"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Fancy4"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Fancy5"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Stripe1"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Stripe2"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Halloween1"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Halloween2"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Metal_FacePaint1"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Metal_FacePaint2"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Metal_Glow_FacePaint1"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Metal_Glow_FacePaint2"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Glow"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Glow2"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "KiraKira"
+      }
+    ]
+  },
+  {
+    "Name": "AttachmentColor",
+    "Palettes": [
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Gray1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PastelColor1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PastelColor2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PastelColor3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PastelColor4"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Red2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Red3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Yellow1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Yellow2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Yellow3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Green1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Blue1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Blue2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Blue3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Violet1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Violet2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Violet3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Pink1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Red1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Gray2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Gray3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "InnerColorA"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "InnerColorB"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "InnerColorC"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "InnerColorD"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "InnerColorE"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "InnerColorF"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "InnerColorG"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PresetColor1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PresetColor2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PresetColor3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PresetColor4"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PresetColor6"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PresetColor7"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PresetColor8"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PresetColor9"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PresetColor5"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PresetColor10"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PresetColor11"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Red4"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "TextureCamouflage1"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "TextureCamouflage2"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "TextureCamouflage3"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Grungy"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Grungy2"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Grungy3"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Plaid1"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Plaid2"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Plaid3"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Plaid4"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Plaid5"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Plaid6"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Traditional"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Animal1"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Animal2"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Animal3"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Animal4"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Fancy"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Fancy2"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Fancy3"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Fancy6"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Fancy4"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Fancy5"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Stripe1"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Stripe2"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Halloween1"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Halloween2"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Metal"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Metal2"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Metal_Glow"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Metal_Glow2"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Glow"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Glow2"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "KiraKira"
+      }
+    ]
+  },
+  {
+    "Name": "InnerColor",
+    "Palettes": [
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Gray1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PastelColor1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PastelColor2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PastelColor3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PastelColor4"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Red2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Red3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Yellow1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Yellow2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Yellow3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Green1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Blue1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Blue2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Blue3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Violet1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Violet2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Violet3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Pink1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Red1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Gray2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Gray3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "InnerColorA"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "InnerColorB"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "InnerColorC"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "InnerColorD"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "InnerColorE"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "InnerColorF"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "InnerColorG"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PresetColor1"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PresetColor2"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PresetColor3"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PresetColor4"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PresetColor6"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PresetColor7"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PresetColor8"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PresetColor9"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PresetColor5"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PresetColor10"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "PresetColor11"
+      },
+      {
+        "IsSpecial": false,
+        "Name": "StandardColor_Red4"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "TextureCamouflage1"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "TextureCamouflage2"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "TextureCamouflage3"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Grungy"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Grungy2"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Grungy3"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Plaid1"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Plaid2"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Plaid3"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Plaid4"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Plaid5"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Plaid6"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Traditional"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Animal1"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Animal2"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Animal3"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Animal4"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Fancy"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Fancy2"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Fancy3"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Fancy6"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Fancy4"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Fancy5"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Stripe1"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Stripe2"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Halloween1"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Halloween2"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Metal"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Metal2"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Metal_Glow"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Metal_Glow2"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Glow"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "Glow2"
+      },
+      {
+        "IsSpecial": true,
+        "Name": "KiraKira"
+      }
+    ]
+  }
+]
