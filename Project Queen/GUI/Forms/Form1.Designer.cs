@@ -73,7 +73,7 @@
             // openToolStripMenuItem
             // 
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(114, 22);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.openToolStripMenuItem.Text = "Open";
             this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
             // 
@@ -81,7 +81,7 @@
             // 
             this.SaveFile.Enabled = false;
             this.SaveFile.Name = "SaveFile";
-            this.SaveFile.Size = new System.Drawing.Size(114, 22);
+            this.SaveFile.Size = new System.Drawing.Size(180, 22);
             this.SaveFile.Text = "Save";
             this.SaveFile.Click += new System.EventHandler(this.SaveFile_Click);
             // 
@@ -89,15 +89,16 @@
             // 
             this.SaveFileAs.Enabled = false;
             this.SaveFileAs.Name = "SaveFileAs";
-            this.SaveFileAs.Size = new System.Drawing.Size(114, 22);
+            this.SaveFileAs.Size = new System.Drawing.Size(180, 22);
             this.SaveFileAs.Text = "Save As";
             this.SaveFileAs.Click += new System.EventHandler(this.SaveFileAs_Click);
             // 
             // jsonToolStripMenuItem
             // 
             this.jsonToolStripMenuItem.Name = "jsonToolStripMenuItem";
-            this.jsonToolStripMenuItem.Size = new System.Drawing.Size(114, 22);
+            this.jsonToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.jsonToolStripMenuItem.Text = "json";
+            this.jsonToolStripMenuItem.Visible = false;
             this.jsonToolStripMenuItem.Click += new System.EventHandler(this.makeColorsJsonToolStripMenuItem_Click);
             // 
             // toolStripDropDownButton2
@@ -126,6 +127,7 @@
             this.projectQueenWikiToolStripMenuItem.Name = "projectQueenWikiToolStripMenuItem";
             this.projectQueenWikiToolStripMenuItem.Size = new System.Drawing.Size(205, 22);
             this.projectQueenWikiToolStripMenuItem.Text = "Project Queen Wiki";
+            this.projectQueenWikiToolStripMenuItem.Visible = false;
             this.projectQueenWikiToolStripMenuItem.Click += new System.EventHandler(this.projectQueenWikiToolStripMenuItem_Click);
             // 
             // queenIOOnGithubToolStripMenuItem
@@ -140,6 +142,7 @@
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
             this.aboutToolStripMenuItem.Size = new System.Drawing.Size(205, 22);
             this.aboutToolStripMenuItem.Text = "About";
+            this.aboutToolStripMenuItem.Visible = false;
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
             // panel1
