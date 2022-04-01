@@ -59,6 +59,11 @@ namespace Project_Queen
                 MaskEditor maskEditor = new MaskEditor(relic);
                 MainControl = maskEditor;
             }
+            else if (relic.FilePath.Contains("DT_HairList_"))
+            {
+                HairEditor hairEditor = new HairEditor(relic);
+                MainControl = hairEditor;
+            }
             else
             {
                 return;
@@ -80,6 +85,10 @@ namespace Project_Queen
             else if (panel1.Controls[0].GetType() == typeof(MaskEditor))
             {
                 relic.WriteDataTable(((MaskEditor)panel1.Controls[0]).MaskListData.Make());
+            }
+            else if (panel1.Controls[0].GetType() == typeof(HairEditor))
+            {
+                relic.WriteDataTable(((HairEditor)panel1.Controls[0]).hairListData.Make());
             }
             Blood.Save(relic, outname);
         }

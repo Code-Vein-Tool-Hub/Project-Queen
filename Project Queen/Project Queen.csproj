@@ -51,6 +51,12 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GUI\Controls\HairEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Controls\HairEditor.Designer.cs">
+      <DependentUpon>HairEditor.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\Controls\Startup.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -99,6 +105,9 @@
     <Compile Include="IO\Objects\SpecialColors.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI\Controls\HairEditor.resx">
+      <DependentUpon>HairEditor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\Controls\Startup.resx">
       <DependentUpon>Startup.cs</DependentUpon>
     </EmbeddedResource>
