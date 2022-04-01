@@ -29,6 +29,9 @@ namespace Project_Queen
         public Form1()
         {
             InitializeComponent();
+            Startup startup = new Startup();
+            MainControl = startup;
+            panel1.Controls.Add(MainControl);
         }
 
         private void openToolStripMenuItem_Click(object sender, EventArgs e)
@@ -49,6 +52,9 @@ namespace Project_Queen
             if (panel1.Controls.Count > 0)
                 panel1.Controls[0].Dispose();
             panel1.Controls.Clear();
+            if (MainControl != null)
+                MainControl.Dispose();
+            MainControl = null;
 
             relic = Blood.Open(inpath);
             if (relic.FilePath.Contains("DT_InnerList_"))
