@@ -1,24 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using System.Numerics;
-
+﻿using Newtonsoft.Json;
 using Project_Queen.GUI.Controls;
 using Project_Queen.IO.Objects;
 using QueenIO;
-
-using UAssetAPI;
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Drawing;
+using System.IO;
+using System.Numerics;
+using System.Windows.Forms;
 using UAssetAPI.PropertyTypes;
 using UAssetAPI.StructTypes;
-using Newtonsoft.Json;
-
 
 namespace Project_Queen
 {
@@ -160,6 +152,24 @@ namespace Project_Queen
             }
         }
 
-        
+        private void projectQueenOnGithubToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://github.com/Code-Vein-Tool-Hub/Project-Queen");
+        }
+
+        private void projectQueenWikiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://github.com/Code-Vein-Tool-Hub/Project-Queen/wiki");
+        }
+
+        private void queenIOOnGithubToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://github.com/Code-Vein-Tool-Hub/QueenIO");
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
