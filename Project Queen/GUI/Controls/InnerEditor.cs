@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Project_Queen.GUI.Forms;
+using Project_Queen.IO;
 using Project_Queen.IO.Objects;
 using QueenIO;
 using QueenIO.Tables;
@@ -151,13 +152,6 @@ namespace Project_Queen.GUI.Controls
             TB_HideThumbnail.Clear();
             //comboBox1.Items.Clear();
             HideThumbnail_Path.Text = string.Empty;
-        }
-
-        private bool VerifyFile(Relic relic, string Type)
-        {
-            int import = relic.Exports[relic.Exports.FindIndex(x => x.ObjectName.Value.Value == Path.GetFileNameWithoutExtension(relic.FilePath))].TemplateIndex.Index;
-            string template = relic.Imports[(import *= -1)-1].ClassName.Value.Value;
-            return template.Equals(Type);
         }
 
         private void pictureBox_Click(object sender, EventArgs e)
@@ -399,7 +393,7 @@ namespace Project_Queen.GUI.Controls
                 {
                     string infile = openFileDialog.FileName;
                     Relic relic = Blood.Open(infile);
-                    if (!VerifyFile(relic, "Texture2D"))
+                    if (!Common.VerifyFile(relic, "Texture2D"))
                     {
                         MessageBox.Show("Selected File is not an Texture2D Asset", "Notice", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                         return;
@@ -420,7 +414,7 @@ namespace Project_Queen.GUI.Controls
                 {
                     string infile = openFileDialog.FileName;
                     Relic relic = Blood.Open(infile);
-                    if (!VerifyFile(relic, "SkeletalMesh"))
+                    if (!Common.VerifyFile(relic, "SkeletalMesh"))
                     {
                         MessageBox.Show("Selected File is not an SkeletalMesh Asset", "Notice", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                         return;
@@ -559,7 +553,7 @@ namespace Project_Queen.GUI.Controls
                 {
                     string infile = openFileDialog.FileName;
                     Relic relic = Blood.Open(infile);
-                    if (!VerifyFile(relic, "Texture2D"))
+                    if (!Common.VerifyFile(relic, "Texture2D"))
                     {
                         MessageBox.Show("Selected File is not an Texture2D Asset", "Notice", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                         return;
