@@ -1,0 +1,2341 @@
+{
+  "SpecialPalettes": [
+    {
+      "Name": "FacePaintColorDefault",
+      "Colors": [
+        {
+          "ColorName": "Default",
+          "Thumbnail": "None",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/BasicAssets/Textures/T_White_sRGB.T_White_sRGB",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "TextureCamouflage1",
+      "Colors": [
+        {
+          "ColorName": "001_01",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_Camouflage_01.T_Thumb_AvatarCustomize_SpecialColor_Camouflage_01",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture001.T_Texture001",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_02",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_Camouflage_02.T_Thumb_AvatarCustomize_SpecialColor_Camouflage_02",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture002.T_Texture002",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_03",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_Camouflage_03.T_Thumb_AvatarCustomize_SpecialColor_Camouflage_03",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture003.T_Texture003",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_04",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_Camouflage_04.T_Thumb_AvatarCustomize_SpecialColor_Camouflage_04",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture004.T_Texture004",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "TextureCamouflage2",
+      "Colors": [
+        {
+          "ColorName": "001_01",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_Camouflage_09.T_Thumb_AvatarCustomize_SpecialColor_Camouflage_09",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture017.T_Texture017",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_02",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_Camouflage_10.T_Thumb_AvatarCustomize_SpecialColor_Camouflage_10",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture018.T_Texture018",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_03",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_Camouflage_11.T_Thumb_AvatarCustomize_SpecialColor_Camouflage_11",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture019.T_Texture019",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_04",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_Camouflage_12.T_Thumb_AvatarCustomize_SpecialColor_Camouflage_12",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture020.T_Texture020",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "TextureCamouflage3",
+      "Colors": [
+        {
+          "ColorName": "001_01",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_Camouflage_05.T_Thumb_AvatarCustomize_SpecialColor_Camouflage_05",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture005.T_Texture005",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_02",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_Camouflage_06.T_Thumb_AvatarCustomize_SpecialColor_Camouflage_06",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture006.T_Texture006",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_03",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_Camouflage_07.T_Thumb_AvatarCustomize_SpecialColor_Camouflage_07",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture007.T_Texture007",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_04",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_Camouflage_08.T_Thumb_AvatarCustomize_SpecialColor_Camouflage_08",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture008.T_Texture008",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Plaid1",
+      "Colors": [
+        {
+          "ColorName": "001_01",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_126.T_Thumb_AvatarCustomize_SpecialColor_126",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture105.T_Texture105",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_02",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_127.T_Thumb_AvatarCustomize_SpecialColor_127",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture127.T_Texture127",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_03",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_128.T_Thumb_AvatarCustomize_SpecialColor_128",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture128.T_Texture128",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_04",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_108.T_Thumb_AvatarCustomize_SpecialColor_108",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture108.T_Texture108",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Plaid2",
+      "Colors": [
+        {
+          "ColorName": "001_01",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_105.T_Thumb_AvatarCustomize_SpecialColor_105",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture126.T_Texture126",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_02",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_106.T_Thumb_AvatarCustomize_SpecialColor_106",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture106.T_Texture106",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_03",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_107.T_Thumb_AvatarCustomize_SpecialColor_107",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture107.T_Texture107",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_04",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_103.T_Thumb_AvatarCustomize_SpecialColor_103",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture103.T_Texture103",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Plaid3",
+      "Colors": [
+        {
+          "ColorName": "001_01",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_104.T_Thumb_AvatarCustomize_SpecialColor_104",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture104.T_Texture104",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_02",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_117.T_Thumb_AvatarCustomize_SpecialColor_117",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture117.T_Texture117",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_03",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_121.T_Thumb_AvatarCustomize_SpecialColor_121",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture121.T_Texture121",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_04",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_122.T_Thumb_AvatarCustomize_SpecialColor_122",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture122.T_Texture122",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Plaid4",
+      "Colors": [
+        {
+          "ColorName": "001_01",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_118.T_Thumb_AvatarCustomize_SpecialColor_118",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture118.T_Texture118",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_02",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_119.T_Thumb_AvatarCustomize_SpecialColor_119",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture119.T_Texture119",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_03",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_120.T_Thumb_AvatarCustomize_SpecialColor_120",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture120.T_Texture120",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_04",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_123.T_Thumb_AvatarCustomize_SpecialColor_123",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture123.T_Texture123",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Plaid5",
+      "Colors": [
+        {
+          "ColorName": "001_01",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_069.T_Thumb_AvatarCustomize_SpecialColor_069",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture233.T_Texture233",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_02",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_070.T_Thumb_AvatarCustomize_SpecialColor_070",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture234.T_Texture234",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_03",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_071.T_Thumb_AvatarCustomize_SpecialColor_071",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture235.T_Texture235",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_04",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_124.T_Thumb_AvatarCustomize_SpecialColor_124",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture124.T_Texture124",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Plaid6",
+      "Colors": [
+        {
+          "ColorName": "001_01",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_064.T_Thumb_AvatarCustomize_SpecialColor_064",
+          "Emmision": 0.2,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture229.T_Texture229",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_02",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_068.T_Thumb_AvatarCustomize_SpecialColor_068",
+          "Emmision": 0.2,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture236.T_Texture236",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_03",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_101.T_Thumb_AvatarCustomize_SpecialColor_101",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture101.T_Texture101",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_04",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_102.T_Thumb_AvatarCustomize_SpecialColor_102",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture102.T_Texture102",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Traditional",
+      "Colors": [
+        {
+          "ColorName": "001_01",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_113.T_Thumb_AvatarCustomize_SpecialColor_113",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture113.T_Texture113",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_02",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_114.T_Thumb_AvatarCustomize_SpecialColor_114",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture114.T_Texture114",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_03",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_115.T_Thumb_AvatarCustomize_SpecialColor_115",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture115.T_Texture115",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_04",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_116.T_Thumb_AvatarCustomize_SpecialColor_116",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture116.T_Texture116",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Animal1",
+      "Colors": [
+        {
+          "ColorName": "001_01",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_072.T_Thumb_AvatarCustomize_SpecialColor_072",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture027.T_Texture027",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_02",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_016.T_Thumb_AvatarCustomize_SpecialColor_016",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture010.T_Texture010",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_03",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_017.T_Thumb_AvatarCustomize_SpecialColor_017",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture011.T_Texture011",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_04",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_033.T_Thumb_AvatarCustomize_SpecialColor_033",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture021.T_Texture021",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Animal2",
+      "Colors": [
+        {
+          "ColorName": "001_01",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_020.T_Thumb_AvatarCustomize_SpecialColor_020",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture015.T_Texture015",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_02",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_034.T_Thumb_AvatarCustomize_SpecialColor_034",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture022.T_Texture022",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_03",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_014.T_Thumb_AvatarCustomize_SpecialColor_014",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture009.T_Texture009",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_04",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_035.T_Thumb_AvatarCustomize_SpecialColor_035",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture024.T_Texture024",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Animal3",
+      "Colors": [
+        {
+          "ColorName": "001_01",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_015.T_Thumb_AvatarCustomize_SpecialColor_015",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture012.T_Texture012",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_02",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_037.T_Thumb_AvatarCustomize_SpecialColor_037",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture025.T_Texture025",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_03",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_018.T_Thumb_AvatarCustomize_SpecialColor_018",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture013.T_Texture013",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_04",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_036.T_Thumb_AvatarCustomize_SpecialColor_036",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture023.T_Texture023",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Fancy",
+      "Colors": [
+        {
+          "ColorName": "001_01",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_109.T_Thumb_AvatarCustomize_SpecialColor_109",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture109.T_Texture109",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_02",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_039.T_Thumb_AvatarCustomize_SpecialColor_039",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture130.T_Texture130",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_03",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_111.T_Thumb_AvatarCustomize_SpecialColor_111",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture111.T_Texture111",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_04",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_041.T_Thumb_AvatarCustomize_SpecialColor_041",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture133.T_Texture133",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Fancy2",
+      "Colors": [
+        {
+          "ColorName": "001_01",
+          "Thumbnail": "/Game/Costumes/FacePaints/T_Texture143.T_Texture143",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture143.T_Texture143",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_02",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_110.T_Thumb_AvatarCustomize_SpecialColor_110",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture110.T_Texture110",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_03",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_038.T_Thumb_AvatarCustomize_SpecialColor_038",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture129.T_Texture129",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_04",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_125.T_Thumb_AvatarCustomize_SpecialColor_125",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture125.T_Texture125",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Fancy3",
+      "Colors": [
+        {
+          "ColorName": "001_01",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_129.T_Thumb_AvatarCustomize_SpecialColor_129",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture213.T_Texture213",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_02",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_130.T_Thumb_AvatarCustomize_SpecialColor_130",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture214.T_Texture214",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_03",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_131.T_Thumb_AvatarCustomize_SpecialColor_131",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture215.T_Texture215",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_04",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_132.T_Thumb_AvatarCustomize_SpecialColor_132",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture216.T_Texture216",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Fancy4",
+      "Colors": [
+        {
+          "ColorName": "001_01",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_044.T_Thumb_AvatarCustomize_SpecialColor_044",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture135.T_Texture135",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_02",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_045.T_Thumb_AvatarCustomize_SpecialColor_045",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture136.T_Texture136",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_03",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_046.T_Thumb_AvatarCustomize_SpecialColor_046",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture137.T_Texture137",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_04",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_047.T_Thumb_AvatarCustomize_SpecialColor_047",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture138.T_Texture138",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Fancy5",
+      "Colors": [
+        {
+          "ColorName": "001_01",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_048.T_Thumb_AvatarCustomize_SpecialColor_048",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture139.T_Texture139",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_02",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_049.T_Thumb_AvatarCustomize_SpecialColor_049",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture140.T_Texture140",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_03",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_050.T_Thumb_AvatarCustomize_SpecialColor_050",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture141.T_Texture141",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_04",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_051.T_Thumb_AvatarCustomize_SpecialColor_051",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture142.T_Texture142",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Grungy",
+      "Colors": [
+        {
+          "ColorName": "001_01",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_206.T_Thumb_AvatarCustomize_SpecialColor_206",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture206.T_Texture206",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_02",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_208.T_Thumb_AvatarCustomize_SpecialColor_208",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture208.T_Texture208",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_03",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_040.T_Thumb_AvatarCustomize_SpecialColor_040",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture132.T_Texture132",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_04",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_042.T_Thumb_AvatarCustomize_SpecialColor_042",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture134.T_Texture134",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Grungy2",
+      "Colors": [
+        {
+          "ColorName": "001_01",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_065.T_Thumb_AvatarCustomize_SpecialColor_065",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture230.T_Texture230",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_02",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_066.T_Thumb_AvatarCustomize_SpecialColor_066",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture231.T_Texture231",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_03",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_067.T_Thumb_AvatarCustomize_SpecialColor_067",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture232.T_Texture232",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_04",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_052.T_Thumb_AvatarCustomize_SpecialColor_052",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture221.T_Texture221",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Grungy3",
+      "Colors": [
+        {
+          "ColorName": "001_01",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_209.T_Thumb_AvatarCustomize_SpecialColor_209",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture209.T_Texture209",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_02",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_210.T_Thumb_AvatarCustomize_SpecialColor_210",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture210.T_Texture210",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_03",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_212.T_Thumb_AvatarCustomize_SpecialColor_212",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture212.T_Texture212",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_04",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_211.T_Thumb_AvatarCustomize_SpecialColor_211",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture211.T_Texture211",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Metal",
+      "Colors": [
+        {
+          "ColorName": "002_01",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_001.T_Thumb_AvatarCustomize_SpecialColor_001",
+          "Emmision": 0.0,
+          "Metallic": 1.0,
+          "Roughness": 0.1,
+          "Texture": "/Game/BasicAssets/Textures/T_White_sRGB.T_White_sRGB",
+          "Color": {
+            "X": 0.666667,
+            "Y": 0.509607,
+            "Z": 0.270833,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "002_02",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_002.T_Thumb_AvatarCustomize_SpecialColor_002",
+          "Emmision": 0.0,
+          "Metallic": 1.0,
+          "Roughness": 0.1,
+          "Texture": "/Game/BasicAssets/Textures/T_White_sRGB.T_White_sRGB",
+          "Color": {
+            "X": 0.168538,
+            "Y": 0.381367,
+            "Z": 0.567708,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "002_03",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_003.T_Thumb_AvatarCustomize_SpecialColor_003",
+          "Emmision": 0.0,
+          "Metallic": 1.0,
+          "Roughness": 0.1,
+          "Texture": "/Game/BasicAssets/Textures/T_White_sRGB.T_White_sRGB",
+          "Color": {
+            "X": 0.463542,
+            "Y": 0.098985,
+            "Z": 0.11187,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "002_04",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_004.T_Thumb_AvatarCustomize_SpecialColor_004",
+          "Emmision": 0.0,
+          "Metallic": 1.0,
+          "Roughness": 0.1,
+          "Texture": "/Game/BasicAssets/Textures/T_White_sRGB.T_White_sRGB",
+          "Color": {
+            "X": 0.545385,
+            "Y": 0.246718,
+            "Z": 0.557292,
+            "W": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Metal2",
+      "Colors": [
+        {
+          "ColorName": "002_01",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_029.T_Thumb_AvatarCustomize_SpecialColor_029",
+          "Emmision": 0.0,
+          "Metallic": 0.6,
+          "Roughness": 0.0,
+          "Texture": "/Game/BasicAssets/Textures/T_White_sRGB.T_White_sRGB",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "002_02",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_030.T_Thumb_AvatarCustomize_SpecialColor_030",
+          "Emmision": 0.0,
+          "Metallic": 0.6,
+          "Roughness": 0.0,
+          "Texture": "/Game/BasicAssets/Textures/T_White_sRGB.T_White_sRGB",
+          "Color": {
+            "X": 0.640625,
+            "Y": 0.640625,
+            "Z": 0.640625,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "002_03",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_031.T_Thumb_AvatarCustomize_SpecialColor_031",
+          "Emmision": 0.0,
+          "Metallic": 0.6,
+          "Roughness": 0.0,
+          "Texture": "/Game/BasicAssets/Textures/T_White_sRGB.T_White_sRGB",
+          "Color": {
+            "X": 0.291667,
+            "Y": 0.291667,
+            "Z": 0.291667,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "002_04",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_032.T_Thumb_AvatarCustomize_SpecialColor_032",
+          "Emmision": 0.0,
+          "Metallic": 0.6,
+          "Roughness": 0.0,
+          "Texture": "/Game/BasicAssets/Textures/T_White_sRGB.T_White_sRGB",
+          "Color": {
+            "X": 0.114583,
+            "Y": 0.114583,
+            "Z": 0.114583,
+            "W": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Glow",
+      "Colors": [
+        {
+          "ColorName": "003_01",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_005.T_Thumb_AvatarCustomize_SpecialColor_005",
+          "Emmision": 10.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/BasicAssets/Textures/T_White_sRGB.T_White_sRGB",
+          "Color": {
+            "X": 1.0,
+            "Y": 0.145262,
+            "Z": 0.17511,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "003_02",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_006.T_Thumb_AvatarCustomize_SpecialColor_006",
+          "Emmision": 10.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/BasicAssets/Textures/T_White_sRGB.T_White_sRGB",
+          "Color": {
+            "X": 1.0,
+            "Y": 0.487975,
+            "Z": 0.265422,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "003_03",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_007.T_Thumb_AvatarCustomize_SpecialColor_007",
+          "Emmision": 10.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/BasicAssets/Textures/T_White_sRGB.T_White_sRGB",
+          "Color": {
+            "X": 0.8,
+            "Y": 0.6,
+            "Z": 0.2,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "003_04",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_008.T_Thumb_AvatarCustomize_SpecialColor_008",
+          "Emmision": 10.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/BasicAssets/Textures/T_White_sRGB.T_White_sRGB",
+          "Color": {
+            "X": 0.6,
+            "Y": 0.8,
+            "Z": 0.2,
+            "W": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Glow2",
+      "Colors": [
+        {
+          "ColorName": "003_01",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_025.T_Thumb_AvatarCustomize_SpecialColor_025",
+          "Emmision": 12.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/BasicAssets/Textures/T_White_sRGB.T_White_sRGB",
+          "Color": {
+            "X": 0.2,
+            "Y": 0.6,
+            "Z": 0.8,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "003_02",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_026.T_Thumb_AvatarCustomize_SpecialColor_026",
+          "Emmision": 16.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/BasicAssets/Textures/T_White_sRGB.T_White_sRGB",
+          "Color": {
+            "X": 0.177083,
+            "Y": 0.256678,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "003_03",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_027.T_Thumb_AvatarCustomize_SpecialColor_027",
+          "Emmision": 10.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/BasicAssets/Textures/T_White_sRGB.T_White_sRGB",
+          "Color": {
+            "X": 0.751821,
+            "Y": 0.203278,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "003_04",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_028.T_Thumb_AvatarCustomize_SpecialColor_028",
+          "Emmision": 10.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/BasicAssets/Textures/T_White_sRGB.T_White_sRGB",
+          "Color": {
+            "X": 0.562694,
+            "Y": 0.588542,
+            "Z": 0.561125,
+            "W": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Metal_Glow",
+      "Colors": [
+        {
+          "ColorName": "004_01",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_022.T_Thumb_AvatarCustomize_SpecialColor_022",
+          "Emmision": 9.0,
+          "Metallic": 1.0,
+          "Roughness": 0.0,
+          "Texture": "/Game/BasicAssets/Textures/T_White_sRGB.T_White_sRGB",
+          "Color": {
+            "X": 1.0,
+            "Y": 0.145262,
+            "Z": 0.175109,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "004_02",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_023.T_Thumb_AvatarCustomize_SpecialColor_023",
+          "Emmision": 9.0,
+          "Metallic": 1.0,
+          "Roughness": 0.0,
+          "Texture": "/Game/BasicAssets/Textures/T_White_sRGB.T_White_sRGB",
+          "Color": {
+            "X": 0.880208,
+            "Y": 0.439232,
+            "Z": 0.247559,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "004_03",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_010.T_Thumb_AvatarCustomize_SpecialColor_010",
+          "Emmision": 18.0,
+          "Metallic": 1.0,
+          "Roughness": 0.0,
+          "Texture": "/Game/BasicAssets/Textures/T_White_sRGB.T_White_sRGB",
+          "Color": {
+            "X": 0.552083,
+            "Y": 0.414063,
+            "Z": 0.138021,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "004_04",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_011.T_Thumb_AvatarCustomize_SpecialColor_011",
+          "Emmision": 10.0,
+          "Metallic": 1.0,
+          "Roughness": 0.0,
+          "Texture": "/Game/BasicAssets/Textures/T_White_sRGB.T_White_sRGB",
+          "Color": {
+            "X": 0.5,
+            "Y": 0.666667,
+            "Z": 0.166667,
+            "W": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Metal_Glow2",
+      "Colors": [
+        {
+          "ColorName": "004_01",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_009.T_Thumb_AvatarCustomize_SpecialColor_009",
+          "Emmision": 30.0,
+          "Metallic": 1.0,
+          "Roughness": 0.0,
+          "Texture": "/Game/BasicAssets/Textures/T_White_sRGB.T_White_sRGB",
+          "Color": {
+            "X": 0.118544,
+            "Y": 0.369378,
+            "Z": 0.494792,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "004_02",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_013.T_Thumb_AvatarCustomize_SpecialColor_013",
+          "Emmision": 20.0,
+          "Metallic": 1.0,
+          "Roughness": 0.0,
+          "Texture": "/Game/BasicAssets/Textures/T_White_sRGB.T_White_sRGB",
+          "Color": {
+            "X": 0.182292,
+            "Y": 0.182359,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "004_03",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_012.T_Thumb_AvatarCustomize_SpecialColor_012",
+          "Emmision": 12.0,
+          "Metallic": 1.0,
+          "Roughness": 0.0,
+          "Texture": "/Game/BasicAssets/Textures/T_White_sRGB.T_White_sRGB",
+          "Color": {
+            "X": 0.669591,
+            "Y": 0.181044,
+            "Z": 0.890625,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "004_04",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_024.T_Thumb_AvatarCustomize_SpecialColor_024",
+          "Emmision": 16.0,
+          "Metallic": 1.0,
+          "Roughness": 0.0,
+          "Texture": "/Game/BasicAssets/Textures/T_White_sRGB.T_White_sRGB",
+          "Color": {
+            "X": 0.48302,
+            "Y": 0.505208,
+            "Z": 0.481673,
+            "W": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "KiraKira",
+      "Colors": [
+        {
+          "ColorName": "001_01",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_201.T_Thumb_AvatarCustomize_SpecialColor_201",
+          "Emmision": 0.1,
+          "Metallic": 0.85,
+          "Roughness": 0.1,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture201.T_Texture201",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_02",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_202.T_Thumb_AvatarCustomize_SpecialColor_202",
+          "Emmision": 0.1,
+          "Metallic": 0.85,
+          "Roughness": 0.1,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture202.T_Texture202",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_03",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_203.T_Thumb_AvatarCustomize_SpecialColor_203",
+          "Emmision": 0.1,
+          "Metallic": 0.85,
+          "Roughness": 0.1,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture203.T_Texture203",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_04",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_204.T_Thumb_AvatarCustomize_SpecialColor_204",
+          "Emmision": 0.1,
+          "Metallic": 0.85,
+          "Roughness": 0.1,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture204.T_Texture204",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Fancy6",
+      "Colors": [
+        {
+          "ColorName": "001_01",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_060.T_Thumb_AvatarCustomize_SpecialColor_060",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture217.T_Texture217",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_02",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_061.T_Thumb_AvatarCustomize_SpecialColor_061",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture226.T_Texture226",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_03",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_062.T_Thumb_AvatarCustomize_SpecialColor_062",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture227.T_Texture227",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_04",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_063.T_Thumb_AvatarCustomize_SpecialColor_063",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture228.T_Texture228",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Stripe1",
+      "Colors": [
+        {
+          "ColorName": "001_01",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_053.T_Thumb_AvatarCustomize_SpecialColor_053",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture220.T_Texture220",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_02",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_054.T_Thumb_AvatarCustomize_SpecialColor_054",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture219.T_Texture219",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_03",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_112.T_Thumb_AvatarCustomize_SpecialColor_112",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture112.T_Texture112",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_04",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_059.T_Thumb_AvatarCustomize_SpecialColor_059",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture218.T_Texture218",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Stripe2",
+      "Colors": [
+        {
+          "ColorName": "001_01",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_057.T_Thumb_AvatarCustomize_SpecialColor_057",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture222.T_Texture222",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_02",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_058.T_Thumb_AvatarCustomize_SpecialColor_058",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture225.T_Texture225",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_03",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_055.T_Thumb_AvatarCustomize_SpecialColor_055",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture223.T_Texture223",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "001_04",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_056.T_Thumb_AvatarCustomize_SpecialColor_056",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture224.T_Texture224",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Animal4",
+      "Colors": [
+        {
+          "ColorName": "Animal4",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_019.T_Thumb_AvatarCustomize_SpecialColor_019",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture014.T_Texture014",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "Animal4",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_073.T_Thumb_AvatarCustomize_SpecialColor_073",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture026.T_Texture026",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "Animal4",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_074.T_Thumb_AvatarCustomize_SpecialColor_074",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture028.T_Texture028",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "Animal4",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_021.T_Thumb_AvatarCustomize_SpecialColor_021",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture016.T_Texture016",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Metal_FacePaint1",
+      "Colors": [
+        {
+          "ColorName": "002_01",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_001.T_Thumb_AvatarCustomize_SpecialColor_001",
+          "Emmision": 0.0,
+          "Metallic": 0.6,
+          "Roughness": 0.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture237.T_Texture237",
+          "Color": {
+            "X": 0.447917,
+            "Y": 0.336499,
+            "Z": 0.16097,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "002_02",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_002.T_Thumb_AvatarCustomize_SpecialColor_002",
+          "Emmision": 0.0,
+          "Metallic": 0.6,
+          "Roughness": 0.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture237.T_Texture237",
+          "Color": {
+            "X": 0.145616,
+            "Y": 0.290659,
+            "Z": 0.458333,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "002_03",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_003.T_Thumb_AvatarCustomize_SpecialColor_003",
+          "Emmision": 0.0,
+          "Metallic": 0.6,
+          "Roughness": 0.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture237.T_Texture237",
+          "Color": {
+            "X": 0.4375,
+            "Y": 0.116211,
+            "Z": 0.127566,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "002_04",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_004.T_Thumb_AvatarCustomize_SpecialColor_004",
+          "Emmision": 0.0,
+          "Metallic": 0.6,
+          "Roughness": 0.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture237.T_Texture237",
+          "Color": {
+            "X": 0.407499,
+            "Y": 0.268379,
+            "Z": 0.432292,
+            "W": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Metal_FacePaint2",
+      "Colors": [
+        {
+          "ColorName": "002_01",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_029.T_Thumb_AvatarCustomize_SpecialColor_029",
+          "Emmision": 0.0,
+          "Metallic": 0.6,
+          "Roughness": 0.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture237.T_Texture237",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "002_02",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_030.T_Thumb_AvatarCustomize_SpecialColor_030",
+          "Emmision": 0.0,
+          "Metallic": 0.6,
+          "Roughness": 0.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture237.T_Texture237",
+          "Color": {
+            "X": 0.640625,
+            "Y": 0.640625,
+            "Z": 0.640625,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "002_03",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_031.T_Thumb_AvatarCustomize_SpecialColor_031",
+          "Emmision": 0.0,
+          "Metallic": 0.6,
+          "Roughness": 0.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture237.T_Texture237",
+          "Color": {
+            "X": 0.291667,
+            "Y": 0.291667,
+            "Z": 0.291667,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "002_04",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_032.T_Thumb_AvatarCustomize_SpecialColor_032",
+          "Emmision": 0.0,
+          "Metallic": 0.6,
+          "Roughness": 0.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture237.T_Texture237",
+          "Color": {
+            "X": 0.114583,
+            "Y": 0.114583,
+            "Z": 0.114583,
+            "W": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Metal_Glow_FacePaint1",
+      "Colors": [
+        {
+          "ColorName": "004_01",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_022.T_Thumb_AvatarCustomize_SpecialColor_022",
+          "Emmision": 6.0,
+          "Metallic": 0.8,
+          "Roughness": 0.0,
+          "Texture": "/Game/BasicAssets/Textures/T_White_sRGB.T_White_sRGB",
+          "Color": {
+            "X": 1.0,
+            "Y": 0.145262,
+            "Z": 0.175109,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "004_02",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_023.T_Thumb_AvatarCustomize_SpecialColor_023",
+          "Emmision": 6.0,
+          "Metallic": 0.8,
+          "Roughness": 0.0,
+          "Texture": "/Game/BasicAssets/Textures/T_White_sRGB.T_White_sRGB",
+          "Color": {
+            "X": 0.880208,
+            "Y": 0.439232,
+            "Z": 0.247559,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "004_03",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_010.T_Thumb_AvatarCustomize_SpecialColor_010",
+          "Emmision": 12.0,
+          "Metallic": 0.8,
+          "Roughness": 0.0,
+          "Texture": "/Game/BasicAssets/Textures/T_White_sRGB.T_White_sRGB",
+          "Color": {
+            "X": 0.552083,
+            "Y": 0.414063,
+            "Z": 0.138021,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "004_04",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_011.T_Thumb_AvatarCustomize_SpecialColor_011",
+          "Emmision": 6.0,
+          "Metallic": 0.8,
+          "Roughness": 0.0,
+          "Texture": "/Game/BasicAssets/Textures/T_White_sRGB.T_White_sRGB",
+          "Color": {
+            "X": 0.5,
+            "Y": 0.666667,
+            "Z": 0.166667,
+            "W": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Metal_Glow_FacePaint2",
+      "Colors": [
+        {
+          "ColorName": "004_01",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_009.T_Thumb_AvatarCustomize_SpecialColor_009",
+          "Emmision": 24.0,
+          "Metallic": 0.8,
+          "Roughness": 0.0,
+          "Texture": "/Game/BasicAssets/Textures/T_White_sRGB.T_White_sRGB",
+          "Color": {
+            "X": 0.118544,
+            "Y": 0.369378,
+            "Z": 0.494792,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "004_02",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_013.T_Thumb_AvatarCustomize_SpecialColor_013",
+          "Emmision": 12.0,
+          "Metallic": 0.8,
+          "Roughness": 0.0,
+          "Texture": "/Game/BasicAssets/Textures/T_White_sRGB.T_White_sRGB",
+          "Color": {
+            "X": 0.182292,
+            "Y": 0.182359,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "004_03",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_012.T_Thumb_AvatarCustomize_SpecialColor_012",
+          "Emmision": 6.0,
+          "Metallic": 0.8,
+          "Roughness": 0.0,
+          "Texture": "/Game/BasicAssets/Textures/T_White_sRGB.T_White_sRGB",
+          "Color": {
+            "X": 0.669591,
+            "Y": 0.181044,
+            "Z": 0.890625,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "004_04",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_024.T_Thumb_AvatarCustomize_SpecialColor_024",
+          "Emmision": 8.0,
+          "Metallic": 0.8,
+          "Roughness": 0.0,
+          "Texture": "/Game/BasicAssets/Textures/T_White_sRGB.T_White_sRGB",
+          "Color": {
+            "X": 0.48302,
+            "Y": 0.505208,
+            "Z": 0.481673,
+            "W": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Halloween1",
+      "Colors": [
+        {
+          "ColorName": "bat1",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_DLC001.T_Thumb_AvatarCustomize_SpecialColor_DLC001",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture_DLC001.T_Texture_DLC001",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "bat2",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_DLC002.T_Thumb_AvatarCustomize_SpecialColor_DLC002",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture_DLC002.T_Texture_DLC002",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "spider1",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_DLC003.T_Thumb_AvatarCustomize_SpecialColor_DLC003",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture_DLC003.T_Texture_DLC003",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "spider2",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_DLC004.T_Thumb_AvatarCustomize_SpecialColor_DLC004",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture_DLC004.T_Texture_DLC004",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Halloween2",
+      "Colors": [
+        {
+          "ColorName": "halloween2",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_DLC005.T_Thumb_AvatarCustomize_SpecialColor_DLC005",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture_DLC005.T_Texture_DLC005",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "halloween2",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_DLC006.T_Thumb_AvatarCustomize_SpecialColor_DLC006",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture_DLC006.T_Texture_DLC006",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "halloween2",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_DLC007.T_Thumb_AvatarCustomize_SpecialColor_DLC007",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture_DLC007.T_Texture_DLC007",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        },
+        {
+          "ColorName": "halloween2",
+          "Thumbnail": "/Game/UserInterface/AvatarCustomize/Textures/Thumbnail/SpecialColor/T_Thumb_AvatarCustomize_SpecialColor_DLC008.T_Thumb_AvatarCustomize_SpecialColor_DLC008",
+          "Emmision": 0.0,
+          "Metallic": 0.0,
+          "Roughness": 1.0,
+          "Texture": "/Game/Costumes/FacePaints/T_Texture_DLC008.T_Texture_DLC008",
+          "Color": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0,
+            "W": 1.0
+          }
+        }
+      ]
+    }
+  ]
+}

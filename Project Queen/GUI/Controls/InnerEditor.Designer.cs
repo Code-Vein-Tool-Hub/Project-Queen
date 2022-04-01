@@ -57,6 +57,7 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.treeView2 = new System.Windows.Forms.TreeView();
             this.button8 = new System.Windows.Forms.Button();
             this.HideThumbnail_Path = new System.Windows.Forms.Label();
@@ -74,7 +75,6 @@
             this.EnableColour3 = new System.Windows.Forms.CheckBox();
             this.EnableColour2 = new System.Windows.Forms.CheckBox();
             this.EnableColour1 = new System.Windows.Forms.CheckBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -276,6 +276,7 @@
             this.pictureBox2.Location = new System.Drawing.Point(27, 50);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 7;
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox_Click);
@@ -296,6 +297,7 @@
             this.pictureBox1.Location = new System.Drawing.Point(27, 19);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox_Click);
@@ -306,6 +308,7 @@
             this.pictureBox7.Location = new System.Drawing.Point(27, 205);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 12;
             this.pictureBox7.TabStop = false;
             this.pictureBox7.Click += new System.EventHandler(this.pictureBox_Click);
@@ -326,6 +329,7 @@
             this.pictureBox3.Location = new System.Drawing.Point(27, 81);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 8;
             this.pictureBox3.TabStop = false;
             this.pictureBox3.Click += new System.EventHandler(this.pictureBox_Click);
@@ -346,6 +350,7 @@
             this.pictureBox6.Location = new System.Drawing.Point(27, 174);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 11;
             this.pictureBox6.TabStop = false;
             this.pictureBox6.Click += new System.EventHandler(this.pictureBox_Click);
@@ -356,6 +361,7 @@
             this.pictureBox4.Location = new System.Drawing.Point(27, 112);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 9;
             this.pictureBox4.TabStop = false;
             this.pictureBox4.Click += new System.EventHandler(this.pictureBox_Click);
@@ -366,6 +372,7 @@
             this.pictureBox5.Location = new System.Drawing.Point(27, 143);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 10;
             this.pictureBox5.TabStop = false;
             this.pictureBox5.Click += new System.EventHandler(this.pictureBox_Click);
@@ -388,6 +395,24 @@
             this.groupBox2.TabIndex = 4;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Hide Options";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "HidePartsA",
+            "HidePartsB",
+            "HidePartsC",
+            "HidePartsD",
+            "HidePartsE",
+            "HidePartsF",
+            "HidePartsG",
+            "HidePartsH"});
+            this.comboBox1.Location = new System.Drawing.Point(173, 48);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(154, 21);
+            this.comboBox1.TabIndex = 19;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // treeView2
             // 
@@ -579,24 +604,6 @@
             this.EnableColour1.TabIndex = 0;
             this.EnableColour1.UseVisualStyleBackColor = true;
             this.EnableColour1.CheckedChanged += new System.EventHandler(this.EnableColour_CheckedChanged);
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "HidePartsA",
-            "HidePartsB",
-            "HidePartsC",
-            "HidePartsD",
-            "HidePartsE",
-            "HidePartsF",
-            "HidePartsG",
-            "HidePartsH"});
-            this.comboBox1.Location = new System.Drawing.Point(173, 48);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(154, 21);
-            this.comboBox1.TabIndex = 19;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // InnerEditor
             // 

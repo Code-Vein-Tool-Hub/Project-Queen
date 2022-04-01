@@ -48,6 +48,7 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GUI\Controls\Startup.cs">
@@ -88,10 +89,17 @@
     </Compile>
     <Compile Include="IO\Objects\ColorPalette.cs" />
     <Compile Include="IO\Objects\PaletteLists.cs" />
+    <Compile Include="IO\Objects\SpecialColors.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI\Controls\Startup.resx">
+      <DependentUpon>Startup.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\Controls\InnerEditor.resx">
       <DependentUpon>InnerEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Controls\MaskEditor.resx">
+      <DependentUpon>MaskEditor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Forms\ColorPicker.resx">
       <DependentUpon>ColorPicker.cs</DependentUpon>
@@ -120,6 +128,9 @@
     <None Include="Assets\PaletteList.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="Assets\SpecialColourList.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -143,6 +154,417 @@
       <Project>{c34f5fec-8812-4dac-ba76-2d15355dadac}</Project>
       <Name>QueenIO</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\LogoLight.png" />
+    <Content Include="Assets\SpecialPalette\T_Texture143.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_001.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_002.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_003.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_004.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_005.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_006.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_007.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_008.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_009.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_010.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_011.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_012.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_013.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_014.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_015.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_016.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_017.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_018.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_019.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_020.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_021.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_022.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_023.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_024.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_025.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_026.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_027.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_028.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_029.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_030.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_031.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_032.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_033.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_034.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_035.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_036.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_037.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_038.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_039.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_040.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_041.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_042.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_044.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_045.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_046.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_047.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_048.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_049.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_050.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_051.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_052.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_053.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_054.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_055.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_056.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_057.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_058.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_059.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_060.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_061.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_062.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_063.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_064.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_065.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_066.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_067.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_068.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_069.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_070.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_071.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_072.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_073.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_074.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_101.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_102.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_103.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_104.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_105.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_106.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_107.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_108.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_109.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_110.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_111.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_112.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_113.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_114.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_115.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_116.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_117.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_118.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_119.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_120.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_121.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_122.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_123.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_124.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_125.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_126.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_127.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_128.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_129.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_130.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_131.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_132.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_201.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_202.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_203.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_204.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_206.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_208.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_209.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_210.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_211.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_212.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_Camouflage_01.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_Camouflage_02.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_Camouflage_03.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_Camouflage_04.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_Camouflage_05.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_Camouflage_06.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_Camouflage_07.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_Camouflage_08.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_Camouflage_09.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_Camouflage_10.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_Camouflage_11.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_Camouflage_12.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_DLC001.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_DLC002.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_DLC003.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_DLC004.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_DLC005.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_DLC006.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_DLC007.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SpecialPalette\T_Thumb_AvatarCustomize_SpecialColor_DLC008.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

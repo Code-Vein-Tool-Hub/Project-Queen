@@ -53,6 +53,10 @@
             this.pictureBox23 = new System.Windows.Forms.PictureBox();
             this.pictureBox24 = new System.Windows.Forms.PictureBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.SpecialBox1 = new System.Windows.Forms.PictureBox();
+            this.SpecialBox2 = new System.Windows.Forms.PictureBox();
+            this.SpecialBox3 = new System.Windows.Forms.PictureBox();
+            this.SpecialBox4 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -77,6 +81,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SpecialBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SpecialBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SpecialBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SpecialBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -121,6 +129,7 @@
             // 
             // pictureBox5
             // 
+            this.pictureBox5.BackColor = System.Drawing.SystemColors.Control;
             this.pictureBox5.Location = new System.Drawing.Point(112, 51);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox5.Name = "pictureBox5";
@@ -329,11 +338,59 @@
             this.comboBox1.TabIndex = 24;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
+            // SpecialBox1
+            // 
+            this.SpecialBox1.Location = new System.Drawing.Point(12, 51);
+            this.SpecialBox1.Margin = new System.Windows.Forms.Padding(0);
+            this.SpecialBox1.Name = "SpecialBox1";
+            this.SpecialBox1.Size = new System.Drawing.Size(50, 75);
+            this.SpecialBox1.TabIndex = 25;
+            this.SpecialBox1.TabStop = false;
+            this.SpecialBox1.Visible = false;
+            this.SpecialBox1.Click += new System.EventHandler(this.SpecialBox_Click);
+            // 
+            // SpecialBox2
+            // 
+            this.SpecialBox2.Location = new System.Drawing.Point(62, 51);
+            this.SpecialBox2.Margin = new System.Windows.Forms.Padding(0);
+            this.SpecialBox2.Name = "SpecialBox2";
+            this.SpecialBox2.Size = new System.Drawing.Size(50, 75);
+            this.SpecialBox2.TabIndex = 26;
+            this.SpecialBox2.TabStop = false;
+            this.SpecialBox2.Visible = false;
+            this.SpecialBox2.Click += new System.EventHandler(this.SpecialBox_Click);
+            // 
+            // SpecialBox3
+            // 
+            this.SpecialBox3.Location = new System.Drawing.Point(112, 51);
+            this.SpecialBox3.Margin = new System.Windows.Forms.Padding(0);
+            this.SpecialBox3.Name = "SpecialBox3";
+            this.SpecialBox3.Size = new System.Drawing.Size(50, 75);
+            this.SpecialBox3.TabIndex = 27;
+            this.SpecialBox3.TabStop = false;
+            this.SpecialBox3.Visible = false;
+            this.SpecialBox3.Click += new System.EventHandler(this.SpecialBox_Click);
+            // 
+            // SpecialBox4
+            // 
+            this.SpecialBox4.Location = new System.Drawing.Point(162, 51);
+            this.SpecialBox4.Margin = new System.Windows.Forms.Padding(0);
+            this.SpecialBox4.Name = "SpecialBox4";
+            this.SpecialBox4.Size = new System.Drawing.Size(50, 75);
+            this.SpecialBox4.TabIndex = 28;
+            this.SpecialBox4.TabStop = false;
+            this.SpecialBox4.Visible = false;
+            this.SpecialBox4.Click += new System.EventHandler(this.SpecialBox_Click);
+            // 
             // ColorPicker
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(223, 138);
+            this.Controls.Add(this.SpecialBox4);
+            this.Controls.Add(this.SpecialBox3);
+            this.Controls.Add(this.SpecialBox2);
+            this.Controls.Add(this.SpecialBox1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.pictureBox17);
             this.Controls.Add(this.pictureBox18);
@@ -362,6 +419,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(239, 177);
             this.Name = "ColorPicker";
             this.Text = "ColorPicker";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -388,6 +446,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SpecialBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SpecialBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SpecialBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SpecialBox4)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -419,5 +481,9 @@
         private System.Windows.Forms.PictureBox pictureBox23;
         private System.Windows.Forms.PictureBox pictureBox24;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.PictureBox SpecialBox1;
+        private System.Windows.Forms.PictureBox SpecialBox2;
+        private System.Windows.Forms.PictureBox SpecialBox3;
+        private System.Windows.Forms.PictureBox SpecialBox4;
     }
 }

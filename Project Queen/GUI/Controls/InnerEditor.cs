@@ -20,6 +20,7 @@ namespace Project_Queen.GUI.Controls
     {
         public InnerList InnerList = new InnerList();
         List<Palette> colourTable = new List<Palette>();
+        SpecialColorsList specialColorsTable = new SpecialColorsList();
         PaletteList InnerPalettes = new PaletteList();
         InnerData innerData;
         string[] HidePartsNames = new string[] { "HidePartsA", "HidePartsB", "HidePartsC", "HidePartsD", "HidePartsE", "HidePartsF", "HidePartsG", "HidePartsH" };
@@ -45,6 +46,8 @@ namespace Project_Queen.GUI.Controls
                 List<PaletteList> palettes = JsonConvert.DeserializeObject<List<PaletteList>>(File.ReadAllText("Assets\\PaletteList.json"));
                 InnerPalettes = palettes.FirstOrDefault(x => x.Name == "InnerColor");
             }
+            if (File.Exists("Assets\\SpecialColourList.json"))
+                specialColorsTable = JsonConvert.DeserializeObject<SpecialColorsList>(File.ReadAllText("Assets\\SpecialColourList.json"));
             Thumbnail_Path.Text = string.Empty;
             Mesh_Path.Text = string.Empty;
             treeView1.Focus();
@@ -94,6 +97,43 @@ namespace Project_Queen.GUI.Controls
             EnableColour5.Checked = false;
             EnableColour6.Checked = false;
             EnableColour7.Checked = false;
+
+            if (pictureBox1.Image != null)
+            {
+                pictureBox1.Image.Dispose();
+                pictureBox1.Image = null;
+            }
+            if (pictureBox2.Image != null)
+            {
+                pictureBox2.Image.Dispose();
+                pictureBox2.Image = null;
+            }
+            if (pictureBox3.Image != null)
+            {
+                pictureBox3.Image.Dispose();
+                pictureBox3.Image = null;
+            }
+            if (pictureBox4.Image != null)
+            {
+                pictureBox4.Image.Dispose();
+                pictureBox4.Image = null;
+            }
+            if (pictureBox5.Image != null)
+            {
+                pictureBox5.Image.Dispose();
+                pictureBox5.Image = null;
+            }
+            if (pictureBox6.Image != null)
+            {
+                pictureBox6.Image.Dispose();
+                pictureBox6.Image = null;
+            }
+            if (pictureBox7.Image != null)
+            {
+                pictureBox7.Image.Dispose();
+                pictureBox7.Image = null;
+            }
+
             pictureBox1.BackColor = DefaultBackColor;
             pictureBox2.BackColor = DefaultBackColor;
             pictureBox3.BackColor = DefaultBackColor;
@@ -126,13 +166,26 @@ namespace Project_Queen.GUI.Controls
             CheckBox checkBox = this.Controls.Find($"EnableColour{pictureBox.Name.Replace("pictureBox", "")}", true).FirstOrDefault() as CheckBox;
             if (!checkBox.Checked)
                 return;
+            if (pictureBox.Image != null)
+            {
+                pictureBox.Image.Dispose();
+                pictureBox.Image = null;
+            }
 
             using (ColorPicker colorPicker = new ColorPicker(pictureBox.Tag as string, InnerPalettes.GetNames().ToArray()))
             {
                 colorPicker.StartPosition = FormStartPosition.CenterParent;
-                if (colorPicker.ShowDialog() == DialogResult.OK)
+                var result = colorPicker.ShowDialog();
+                if (result == DialogResult.OK)
                 {
                     pictureBox.BackColor = colorPicker.ReturnColor.ToColor();
+                    pictureBox.Tag = colorPicker.ReturnTag;
+                    SetInnerColor(int.Parse(pictureBox.Name.Replace("pictureBox", "")) - 1, colorPicker.ReturnTag);
+                }
+                else if (result == DialogResult.Yes)
+                {
+                    string thumbnail = Path.GetExtension(colorPicker.ReturnSpecial.Thumbnail).Substring(1);
+                    pictureBox.Image = new Bitmap($"Assets\\SpecialPalette\\{thumbnail}.png");
                     pictureBox.Tag = colorPicker.ReturnTag;
                     SetInnerColor(int.Parse(pictureBox.Name.Replace("pictureBox", "")) - 1, colorPicker.ReturnTag);
                 }
@@ -143,36 +196,55 @@ namespace Project_Queen.GUI.Controls
         {
             string palette = Tag.Split('.')[0];
             string color = Tag.Split('.')[1];
-            return colourTable[colourTable.FindIndex(x => x.Name == palette)]
+            bool IsSpecial = bool.Parse(Tag.Split('.')[2]);
+            if (!IsSpecial)
+            {
+                return colourTable[colourTable.FindIndex(x => x.Name == palette)]
                     .colours.First(x => x.Name == color);
+            }
+            return null;
+        }
+
+        private SpecialColor GetSpecialColor(string Tag)
+        {
+            string palette = Tag.Split('.')[0];
+            string color = Tag.Split('.')[1];
+            bool IsSpecial = bool.Parse(Tag.Split('.')[2]);
+            if (IsSpecial)
+            {
+                return specialColorsTable.SpecialPalettes[specialColorsTable.SpecialPalettes.FindIndex(x => x.Name == palette)]
+                    .Colors.First(x => x.ColorName == color);
+            }
+            return null;
         }
 
         private void SetInnerColor(int index, string Tag)
         {
             string palette = Tag.Split('.')[0];
             string color = Tag.Split('.')[1];
+            bool IsSpecial = bool.Parse(Tag.Split('.')[2]);
             switch (index)
             {
                 case 0:
-                    innerData.Color_0 = new ColorData(palette, color);
+                    innerData.Color_0 = new ColorData(palette, color, IsSpecial);
                     break;
                 case 1:
-                    innerData.Color_1 = new ColorData(palette, color);
+                    innerData.Color_1 = new ColorData(palette, color, IsSpecial);
                     break;
                 case 2:
-                    innerData.Color_2 = new ColorData(palette, color);
+                    innerData.Color_2 = new ColorData(palette, color, IsSpecial);
                     break;
                 case 3:
-                    innerData.Color_3 = new ColorData(palette, color);
+                    innerData.Color_3 = new ColorData(palette, color, IsSpecial);
                     break;
                 case 4:
-                    innerData.Color_4 = new ColorData(palette, color);
+                    innerData.Color_4 = new ColorData(palette, color, IsSpecial);
                     break;
                 case 5:
-                    innerData.Color_5 = new ColorData(palette, color);
+                    innerData.Color_5 = new ColorData(palette, color, IsSpecial);
                     break;
                 case 6:
-                    innerData.Color_6 = new ColorData(palette, color);
+                    innerData.Color_6 = new ColorData(palette, color, IsSpecial);
                     break;
             }
         }
@@ -195,47 +267,103 @@ namespace Project_Queen.GUI.Controls
             {
                 treeView2.Nodes.Add(hideoption.HidePartsName);
             }
-            pictureBox1.Tag = $"{innerData.Color_0.ColorPaletteRowName}.{innerData.Color_0.ColorName}";
-            pictureBox2.Tag = $"{innerData.Color_1.ColorPaletteRowName}.{innerData.Color_1.ColorName}";
-            pictureBox3.Tag = $"{innerData.Color_2.ColorPaletteRowName}.{innerData.Color_2.ColorName}";
-            pictureBox4.Tag = $"{innerData.Color_3.ColorPaletteRowName}.{innerData.Color_3.ColorName}";
-            pictureBox5.Tag = $"{innerData.Color_4.ColorPaletteRowName}.{innerData.Color_4.ColorName}";
-            pictureBox6.Tag = $"{innerData.Color_5.ColorPaletteRowName}.{innerData.Color_5.ColorName}";
-            pictureBox7.Tag = $"{innerData.Color_6.ColorPaletteRowName}.{innerData.Color_6.ColorName}";
+            pictureBox1.Tag = $"{innerData.Color_0.ColorPaletteRowName}.{innerData.Color_0.ColorName}.{innerData.Color_0.IsSpecialColor.ToString().ToLower()}";
+            pictureBox2.Tag = $"{innerData.Color_1.ColorPaletteRowName}.{innerData.Color_1.ColorName}.{innerData.Color_1.IsSpecialColor.ToString().ToLower()}";
+            pictureBox3.Tag = $"{innerData.Color_2.ColorPaletteRowName}.{innerData.Color_2.ColorName}.{innerData.Color_2.IsSpecialColor.ToString().ToLower()}";
+            pictureBox4.Tag = $"{innerData.Color_3.ColorPaletteRowName}.{innerData.Color_3.ColorName}.{innerData.Color_3.IsSpecialColor.ToString().ToLower()}";
+            pictureBox5.Tag = $"{innerData.Color_4.ColorPaletteRowName}.{innerData.Color_4.ColorName}.{innerData.Color_4.IsSpecialColor.ToString().ToLower()}";
+            pictureBox6.Tag = $"{innerData.Color_5.ColorPaletteRowName}.{innerData.Color_5.ColorName}.{innerData.Color_5.IsSpecialColor.ToString().ToLower()}";
+            pictureBox7.Tag = $"{innerData.Color_6.ColorPaletteRowName}.{innerData.Color_6.ColorName}.{innerData.Color_6.IsSpecialColor.ToString().ToLower()}";
 
             if (innerData.Color_0.ColorPaletteRowName != "None")
             {
-                pictureBox1.BackColor = GetColor((string)pictureBox1.Tag).ToColor();
+                if (((string)pictureBox1.Tag).Contains(".true"))
+                {
+                    string thumbnail = Path.GetExtension(GetSpecialColor((string)pictureBox1.Tag).Thumbnail).Substring(1);
+                    pictureBox1.Image = new Bitmap($"Assets\\SpecialPalette\\{thumbnail}.png");
+                }
+                else
+                {
+                    pictureBox1.BackColor = GetColor((string)pictureBox1.Tag).ToColor();
+                }
                 EnableColour1.Checked = true;
             }
             if (innerData.Color_1.ColorPaletteRowName != "None")
             {
-                pictureBox2.BackColor = GetColor((string)pictureBox2.Tag).ToColor();
+                if (((string)pictureBox2.Tag).Contains(".true"))
+                {
+                    string thumbnail = Path.GetExtension(GetSpecialColor((string)pictureBox2.Tag).Thumbnail).Substring(1);
+                    pictureBox2.Image = new Bitmap($"Assets\\SpecialPalette\\{thumbnail}.png");
+                }
+                else
+                {
+                    pictureBox2.BackColor = GetColor((string)pictureBox2.Tag).ToColor();
+                }
                 EnableColour2.Checked = true;
             }
             if (innerData.Color_2.ColorPaletteRowName != "None")
             {
-                pictureBox3.BackColor = GetColor((string)pictureBox3.Tag).ToColor();
+                if (((string)pictureBox3.Tag).Contains(".true"))
+                {
+                    string thumbnail = Path.GetExtension(GetSpecialColor((string)pictureBox3.Tag).Thumbnail).Substring(3);
+                    pictureBox3.Image = new Bitmap($"Assets\\SpecialPalette\\{thumbnail}.png");
+                }
+                else
+                {
+                    pictureBox3.BackColor = GetColor((string)pictureBox3.Tag).ToColor();
+                }
                 EnableColour3.Checked = true;
             }
             if (innerData.Color_3.ColorPaletteRowName != "None")
             {
-                pictureBox4.BackColor = GetColor((string)pictureBox4.Tag).ToColor();
+                if (((string)pictureBox4.Tag).Contains(".true"))
+                {
+                    string thumbnail = Path.GetExtension(GetSpecialColor((string)pictureBox4.Tag).Thumbnail).Substring(4);
+                    pictureBox4.Image = new Bitmap($"Assets\\SpecialPalette\\{thumbnail}.png");
+                }
+                else
+                {
+                    pictureBox4.BackColor = GetColor((string)pictureBox4.Tag).ToColor();
+                }
                 EnableColour4.Checked = true;
             }
             if (innerData.Color_4.ColorPaletteRowName != "None")
             {
-                pictureBox5.BackColor = GetColor((string)pictureBox5.Tag).ToColor();
+                if (((string)pictureBox5.Tag).Contains(".true"))
+                {
+                    string thumbnail = Path.GetExtension(GetSpecialColor((string)pictureBox5.Tag).Thumbnail).Substring(5);
+                    pictureBox5.Image = new Bitmap($"Assets\\SpecialPalette\\{thumbnail}.png");
+                }
+                else
+                {
+                    pictureBox5.BackColor = GetColor((string)pictureBox5.Tag).ToColor();
+                }
                 EnableColour5.Checked = true;
             }
             if (innerData.Color_5.ColorPaletteRowName != "None")
             {
-                pictureBox6.BackColor = GetColor((string)pictureBox6.Tag).ToColor();
+                if (((string)pictureBox6.Tag).Contains(".true"))
+                {
+                    string thumbnail = Path.GetExtension(GetSpecialColor((string)pictureBox6.Tag).Thumbnail).Substring(6);
+                    pictureBox6.Image = new Bitmap($"Assets\\SpecialPalette\\{thumbnail}.png");
+                }
+                else
+                {
+                    pictureBox6.BackColor = GetColor((string)pictureBox6.Tag).ToColor();
+                }
                 EnableColour6.Checked = true;
             }
             if (innerData.Color_6.ColorPaletteRowName != "None")
             {
-                pictureBox7.BackColor = GetColor((string)pictureBox7.Tag).ToColor();
+                if (((string)pictureBox7.Tag).Contains(".true"))
+                {
+                    string thumbnail = Path.GetExtension(GetSpecialColor((string)pictureBox7.Tag).Thumbnail).Substring(7);
+                    pictureBox7.Image = new Bitmap($"Assets\\SpecialPalette\\{thumbnail}.png");
+                }
+                else
+                {
+                    pictureBox7.BackColor = GetColor((string)pictureBox7.Tag).ToColor();
+                }
                 EnableColour7.Checked = true;
             }
             Loading = false;
@@ -328,7 +456,7 @@ namespace Project_Queen.GUI.Controls
             PictureBox picture = groupBox3.Controls[groupBox3.Controls.IndexOfKey($"pictureBox{checknum+1}")] as PictureBox;
             if (checkBox.Checked)
             {
-                if ((string)picture.Tag == "None.None")
+                if ((string)picture.Tag == "None.None.false")
                 {
                     // if we're adding a new color load the color picker
                     using (ColorPicker colorPicker = new ColorPicker(InnerPalettes.GetNames().ToArray()))
@@ -341,17 +469,28 @@ namespace Project_Queen.GUI.Controls
                         else
                         {
                             //if user cancels out for some stupid reason, catch to save them from their own stupidity
-                            picture.Tag = $"StandardColor_Gray1.palette_stg_monotone00";
+                            picture.Tag = $"StandardColor_Gray1.palette_stg_monotone00.false";
                         }
                     }
                 }
                 SetInnerColor(checknum, (string)picture.Tag);
-                picture.BackColor = GetColor((string)picture.Tag).ToColor();
+                if (((string)picture.Tag).Contains(".true"))
+                {
+                    string thumbnail = Path.GetExtension(GetSpecialColor((string)picture.Tag).Thumbnail).Substring(1);
+                    picture.Image = new Bitmap($"Assets\\SpecialPalette\\{thumbnail}.png");
+                }
+                else
+                {
+                    picture.BackColor = GetColor((string)picture.Tag).ToColor();
+                }
+                
             }
             else
             {
-                SetInnerColor(checknum, "None.None");
-                picture.BackColor = DefaultBackColor;
+                SetInnerColor(checknum, "None.None.false");
+                try { picture.Image.Dispose(); } catch { }
+                picture.Image = null;
+                picture.BackColor = SystemColors.Control;
             }
             Loading = false;
         }

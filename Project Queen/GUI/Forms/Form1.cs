@@ -139,6 +139,29 @@ namespace Project_Queen
             File.WriteAllText("Output\\ColourList.json", json);
         }
 
+        private void PhraseSpecialColors(string inpath)
+        {
+            Relic relic = Blood.Open(inpath);
+            var colors = relic.GetDataTable();
+            SpecialColorsList specialColorsList = new SpecialColorsList();
+
+            foreach (var palette in colors.Table.Data)
+            {
+                SpecialPalette Pale = new SpecialPalette() { Name = palette.Name.Value.Value };
+                var colorlist = (ArrayPropertyData)palette.Value[1];
+                foreach (StructPropertyData color in colorlist.Value)
+                {
+                    SpecialColor specialColor = new SpecialColor();
+                    specialColor.Read(color);
+                    Pale.Colors.Add(specialColor);
+                }
+                specialColorsList.SpecialPalettes.Add(Pale);
+            }
+
+            string json = JsonConvert.SerializeObject(specialColorsList, Formatting.Indented);
+            File.WriteAllText("Output\\SpecialColourList.json", json);
+        }
+
         private void makeColorsJsonToolStripMenuItem_Click(object sender, EventArgs e)
         {
             using (OpenFileDialog openFileDialog = new OpenFileDialog())
@@ -147,7 +170,7 @@ namespace Project_Queen
 
                 if (openFileDialog.ShowDialog() == DialogResult.OK)
                 {
-                    PhrasePalettes(openFileDialog.FileName);
+                    PhraseSpecialColors(openFileDialog.FileName);
                 }
             }
         }
