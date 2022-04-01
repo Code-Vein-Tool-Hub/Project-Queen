@@ -64,11 +64,17 @@ namespace Project_Queen
                 HairEditor hairEditor = new HairEditor(relic);
                 MainControl = hairEditor;
             }
+            else if (relic.FilePath.Contains("DT_AccessoryPreset"))
+            {
+                AccessoryEditor accessoryEditor = new AccessoryEditor(relic);
+                MainControl = accessoryEditor;
+            }
             else
             {
                 return;
             }
 
+            this.Text = $"Project Queen Editor - {Path.GetFileNameWithoutExtension(inpath)}";
             SaveFile.Enabled = true;
             SaveFileAs.Enabled = true;
             MainControl.Dock = DockStyle.Fill;
@@ -89,6 +95,10 @@ namespace Project_Queen
             else if (panel1.Controls[0].GetType() == typeof(HairEditor))
             {
                 relic.WriteDataTable(((HairEditor)panel1.Controls[0]).hairListData.Make());
+            }
+            else if (panel1.Controls[0].GetType() == typeof(AccessoryEditor))
+            {
+                relic.WriteDataTable(((AccessoryEditor)panel1.Controls[0]).accessoryList.Make());
             }
             Blood.Save(relic, outname);
         }
