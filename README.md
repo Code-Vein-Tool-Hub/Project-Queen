@@ -4,6 +4,15 @@ Full Data Table Editor for Code Vein.
 
 Current supported Editors
 - Inner Outfits
+- Masks (outer mask and inner frame)
+- Accessories
+- Hair
+
+### Features:
+File picker for assigning meshes and thumbnails that varify the file type and phrases in game path.  
+Hide Parts Manager for inner outfits that auto handles names and injector for visibility table.  
+Colour picker that visually shows ingame color palettes and supports special colours.  
+
 
 # Dependencies
 - [.NET Framework 4.8](https://dotnet.microsoft.com/download/dotnet-framework)  
