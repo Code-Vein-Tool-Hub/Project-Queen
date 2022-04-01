@@ -63,6 +63,12 @@
     <Compile Include="GUI\Controls\InnerEditor.Designer.cs">
       <DependentUpon>InnerEditor.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\Controls\MaskEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Controls\MaskEditor.Designer.cs">
+      <DependentUpon>MaskEditor.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\Forms\ColorPicker.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,6 +93,7 @@
     <Compile Include="GUI\Forms\TextInput.Designer.cs">
       <DependentUpon>TextInput.cs</DependentUpon>
     </Compile>
+    <Compile Include="IO\Common.cs" />
     <Compile Include="IO\Objects\ColorPalette.cs" />
     <Compile Include="IO\Objects\PaletteLists.cs" />
     <Compile Include="IO\Objects\SpecialColors.cs" />

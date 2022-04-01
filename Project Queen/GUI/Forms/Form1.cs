@@ -51,24 +51,42 @@ namespace Project_Queen
             relic = Blood.Open(inpath);
             if (relic.FilePath.Contains("DT_InnerList_"))
             {
-                SaveFile.Enabled = true;
-                SaveFileAs.Enabled = true;
-
                 InnerEditor innerEditor = new InnerEditor(relic);
                 MainControl = innerEditor;
-                MainControl.Dock = DockStyle.Fill;
-                this.Size = new Size(MainControl.Width + 16, MainControl.Height + 64);
-                panel1.Controls.Add(MainControl);
             }
+            else if (relic.FilePath.Contains("DT_OuterMaskList_") || relic.FilePath.Contains("DT_InnerFrameList_"))
+            {
+                MaskEditor maskEditor = new MaskEditor(relic);
+                MainControl = maskEditor;
+            }
+            else
+            {
+                return;
+            }
+
+            SaveFile.Enabled = true;
+            SaveFileAs.Enabled = true;
+            MainControl.Dock = DockStyle.Fill;
+            this.Size = new Size(MainControl.Width + 16, MainControl.Height + 64);
+            panel1.Controls.Add(MainControl);
         }
 
-        private void SaveFile_Click(object sender, EventArgs e)
+        private void Save(string outname)
         {
             if (panel1.Controls[0].GetType() == typeof(InnerEditor))
             {
                 relic.WriteDataTable(((InnerEditor)panel1.Controls[0]).InnerList.Make());
             }
-            Blood.Save(relic, relic.FilePath);
+            else if (panel1.Controls[0].GetType() == typeof(MaskEditor))
+            {
+                relic.WriteDataTable(((MaskEditor)panel1.Controls[0]).MaskListData.Make());
+            }
+            Blood.Save(relic, outname);
+        }
+
+        private void SaveFile_Click(object sender, EventArgs e)
+        {
+            Save(relic.FilePath);
         }
 
         private void SaveFileAs_Click(object sender, EventArgs e)
@@ -80,11 +98,7 @@ namespace Project_Queen
 
                 if (saveFileDialog.ShowDialog() == DialogResult.OK)
                 {
-                    if (panel1.Controls[0].GetType() == typeof(InnerEditor))
-                    {
-                        relic.WriteDataTable(((InnerEditor)panel1.Controls[0]).InnerList.Make());
-                    }
-                    Blood.Save(relic, saveFileDialog.FileName);
+                    Save(saveFileDialog.FileName);
                 }
             }
         }
