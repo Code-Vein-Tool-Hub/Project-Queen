@@ -516,7 +516,7 @@ namespace Project_Queen.GUI.Controls
                         MessageBox.Show("Entry name already exists", "Notice", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                         return;
                     }
-                    innerPartsVisibilityByOuter.partsVisibilities.Add(new QueenIO.Structs.PartsVisibilityByOuter() { Name = innerData.Name, InnerKey = innerData.Mesh });
+                    innerPartsVisibilityByOuter.partsVisibilities.Add(new QueenIO.Structs.PartsVisibilityByOuter(true) { Name = innerData.Name, InnerKey = innerData.Mesh });
 
                     using (SaveFileDialog saveFileDialog = new SaveFileDialog())
                     {

@@ -63,6 +63,12 @@
     <Compile Include="GUI\Controls\HairEditor.Designer.cs">
       <DependentUpon>HairEditor.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\Controls\InnerVisibilityEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Controls\InnerVisibilityEditor.Designer.cs">
+      <DependentUpon>InnerVisibilityEditor.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\Controls\Startup.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -116,6 +122,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Controls\HairEditor.resx">
       <DependentUpon>HairEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Controls\InnerVisibilityEditor.resx">
+      <DependentUpon>InnerVisibilityEditor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Controls\Startup.resx">
       <DependentUpon>Startup.cs</DependentUpon>

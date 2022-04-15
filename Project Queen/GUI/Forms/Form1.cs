@@ -69,6 +69,11 @@ namespace Project_Queen
                 AccessoryEditor accessoryEditor = new AccessoryEditor(relic);
                 MainControl = accessoryEditor;
             }
+            else if (relic.FilePath.Contains("DT_InnerPartsVisibilityByOuter"))
+            {
+                InnerVisibilityEditor innerVisibilityEditor = new InnerVisibilityEditor(relic);
+                MainControl = innerVisibilityEditor;
+            }
             else
             {
                 return;
@@ -99,6 +104,10 @@ namespace Project_Queen
             else if (panel1.Controls[0].GetType() == typeof(AccessoryEditor))
             {
                 relic.WriteDataTable(((AccessoryEditor)panel1.Controls[0]).accessoryList.Make());
+            }
+            else if (panel1.Controls[0].GetType() == typeof(InnerVisibilityEditor))
+            {
+                relic.WriteDataTable(((InnerVisibilityEditor)panel1.Controls[0]).VisibiltyList.Make());
             }
             Blood.Save(relic, outname);
         }
