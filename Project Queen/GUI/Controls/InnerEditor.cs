@@ -434,7 +434,7 @@ namespace Project_Queen.GUI.Controls
 
         private void TB_Mesh_TextChanged(object sender, EventArgs e)
         {
-            if (Loading || TB_EntryName.Text.Length <= 0 || TB_EntryName.Text == string.Empty || TB_EntryName.Text == null)
+            if (Loading || TB_Mesh.Text.Length <= 0 || TB_Mesh.Text == string.Empty || TB_Mesh.Text == null)
                 return;
             innerData.Mesh = $"{Mesh_Path.Text.Replace("\\", "/")}/{TB_Mesh.Text}.{TB_Mesh.Text}";
         }
