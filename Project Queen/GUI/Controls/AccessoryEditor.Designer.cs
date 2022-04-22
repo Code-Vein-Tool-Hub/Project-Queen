@@ -991,6 +991,7 @@
             this.EnableColour3.Size = new System.Drawing.Size(15, 14);
             this.EnableColour3.TabIndex = 30;
             this.EnableColour3.UseVisualStyleBackColor = true;
+            this.EnableColour3.CheckedChanged += new System.EventHandler(this.EnableColour_CheckedChanged);
             // 
             // pictureBox2
             // 
@@ -1001,6 +1002,7 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 24;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox_Click);
             // 
             // EnableColour2
             // 
@@ -1010,6 +1012,7 @@
             this.EnableColour2.Size = new System.Drawing.Size(15, 14);
             this.EnableColour2.TabIndex = 29;
             this.EnableColour2.UseVisualStyleBackColor = true;
+            this.EnableColour2.CheckedChanged += new System.EventHandler(this.EnableColour_CheckedChanged);
             // 
             // label17
             // 
@@ -1050,6 +1053,7 @@
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 25;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox_Click);
             // 
             // label15
             // 

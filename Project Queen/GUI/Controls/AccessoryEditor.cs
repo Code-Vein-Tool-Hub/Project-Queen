@@ -1,20 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using System.IO;
-using QueenIO;
-using QueenIO.Tables;
+﻿using Newtonsoft.Json;
 using Project_Queen.GUI.Forms;
 using Project_Queen.IO;
 using Project_Queen.IO.Objects;
-using Newtonsoft.Json;
+using QueenIO;
+using QueenIO.Tables;
+using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.IO;
+using System.Linq;
 using System.Numerics;
+using System.Windows.Forms;
 
 namespace Project_Queen.GUI.Controls
 {
@@ -31,7 +27,7 @@ namespace Project_Queen.GUI.Controls
             InitializeComponent();
             accessoryList.Read(infile.GetDataTable());
             InitinalLoad(Path.GetFileNameWithoutExtension(infile.FilePath));
-            
+
         }
         bool Loading = false;
 
@@ -183,13 +179,13 @@ namespace Project_Queen.GUI.Controls
             switch (index)
             {
                 case 1:
-                    accessoryData.Color_1 = new ColorData(palette, color, IsSpecial);
+                    accessoryData.Color_1 = new ColorData(palette, color, IsSpecial) { Name = "Color", StructType = "AvatarCustomizeDataTableAccessoryColor" };
                     break;
                 case 2:
-                    accessoryData.Color_2 = new ColorData(palette, color, IsSpecial);
+                    accessoryData.Color_2 = new ColorData(palette, color, IsSpecial) { Name = "Color", StructType = "AvatarCustomizeDataTableAccessoryColor" };
                     break;
                 case 3:
-                    accessoryData.Color_3 = new ColorData(palette, color, IsSpecial);
+                    accessoryData.Color_3 = new ColorData(palette, color, IsSpecial) { Name = "Color", StructType = "AvatarCustomizeDataTableAccessoryColor" };
                     break;
             }
         }
@@ -198,19 +194,19 @@ namespace Project_Queen.GUI.Controls
         {
             Loading = true;
             Reset();
-            accessoryData =             accessoryList.Accessories[treeView1.SelectedNode.Index];
-            TB_EntryName.Text =         accessoryData.Name;
-            TB_Thumbnail.Text =         accessoryData.Thumbnail.Split('.').Last();
-            Thumbnail_Path.Text =       Path.GetDirectoryName(accessoryData.Thumbnail.Replace("/", "\\"));
-            TB_Mesh.Text =              accessoryData.Mesh.Split('.').Last();
-            Mesh_Path.Text =            Path.GetDirectoryName(accessoryData.Mesh.Replace("/", "\\"));
-            TB_CheckFlag.Text =         accessoryData.CheckFlag.Value;
-            TB_AttachName.Text =        accessoryData.AttachRowName;
-            CB_Spa.Checked =            accessoryData.SpaEnable;
-            CB_Transformable.Checked =  accessoryData.Transformable;
-            CB_ScaleNeg.Checked =       accessoryData.ScaleNegate;
-            NUD_Cost.Value =            accessoryData.Cost;
-            NUD_Anim.Value =            accessoryData.AnimClass;
+            accessoryData = accessoryList.Accessories[treeView1.SelectedNode.Index];
+            TB_EntryName.Text = accessoryData.Name;
+            TB_Thumbnail.Text = accessoryData.Thumbnail.Split('.').Last();
+            Thumbnail_Path.Text = Path.GetDirectoryName(accessoryData.Thumbnail.Replace("/", "\\"));
+            TB_Mesh.Text = accessoryData.Mesh.Split('.').Last();
+            Mesh_Path.Text = Path.GetDirectoryName(accessoryData.Mesh.Replace("/", "\\"));
+            TB_CheckFlag.Text = accessoryData.CheckFlag.Value;
+            TB_AttachName.Text = accessoryData.AttachRowName;
+            CB_Spa.Checked = accessoryData.SpaEnable;
+            CB_Transformable.Checked = accessoryData.Transformable;
+            CB_ScaleNeg.Checked = accessoryData.ScaleNegate;
+            NUD_Cost.Value = accessoryData.Cost;
+            NUD_Anim.Value = accessoryData.AnimClass;
 
             #region Transform
             NUD_Root_R_X.Value = (decimal)accessoryData.RootTransform.Rotation.X;
@@ -303,7 +299,7 @@ namespace Project_Queen.GUI.Controls
 
         private void TB_Thumbnail_TextChanged(object sender, EventArgs e)
         {
-            if (Loading || TB_EntryName.Text.Length <= 0 || TB_EntryName.Text == string.Empty || TB_EntryName.Text == null)
+            if (Loading || TB_Thumbnail.Text.Length <= 0 || TB_Thumbnail.Text == string.Empty || TB_Thumbnail.Text == null)
                 return;
             accessoryData.Thumbnail = $"{Thumbnail_Path.Text.Replace("\\", "/")}/{TB_Thumbnail.Text}.{TB_Thumbnail.Text}";
         }
@@ -331,9 +327,9 @@ namespace Project_Queen.GUI.Controls
 
         private void TB_Mesh_TextChanged(object sender, EventArgs e)
         {
-            if (Loading || TB_EntryName.Text.Length <= 0 || TB_EntryName.Text == string.Empty || TB_EntryName.Text == null)
+            if (Loading || TB_Mesh.Text.Length <= 0 || TB_Mesh.Text == string.Empty || TB_Mesh.Text == null)
                 return;
-            accessoryData.Thumbnail = $"{Thumbnail_Path.Text.Replace("\\", "/")}/{TB_Thumbnail.Text}.{TB_Thumbnail.Text}";
+            accessoryData.Mesh = $"{Mesh_Path.Text.Replace("\\", "/")}/{TB_Mesh.Text}.{TB_Mesh.Text}";
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -373,10 +369,10 @@ namespace Project_Queen.GUI.Controls
             if (Loading)
                 return;
 
-            if (TB_CheckFlag.Text.Length <= 0 || TB_CheckFlag.Text == string.Empty || TB_CheckFlag.Text == null)
-                accessoryData.CheckFlag.Value = null;
+            if (TB_AttachName.Text.Length <= 0 || TB_AttachName.Text == string.Empty || TB_AttachName.Text == null)
+                accessoryData.AttachRowName = null;
             else
-                accessoryData.CheckFlag.Value = TB_CheckFlag.Text;
+                accessoryData.AttachRowName = TB_AttachName.Text;
         }
 
         private void NUD_Cost_ValueChanged(object sender, EventArgs e)
@@ -553,7 +549,7 @@ namespace Project_Queen.GUI.Controls
             Loading = true;
             CheckBox checkBox = sender as CheckBox;
             int checknum = int.Parse(checkBox.Name.Replace("EnableColour", ""));
-            PictureBox picture = groupBox3.Controls[groupBox3.Controls.IndexOfKey($"pictureBox{checknum}")] as PictureBox;
+            PictureBox picture = groupBox6.Controls[groupBox6.Controls.IndexOfKey($"pictureBox{checknum}")] as PictureBox;
             if (checkBox.Checked)
             {
                 if ((string)picture.Tag == "None.None.false")
