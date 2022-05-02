@@ -113,7 +113,7 @@ namespace Project_Queen.GUI.Controls
 
         private void TB_Thumbnail_TextChanged(object sender, EventArgs e)
         {
-            if (Loading || TB_EntryName.Text.Length <= 0 || TB_EntryName.Text == string.Empty || TB_EntryName.Text == null)
+            if (Loading || TB_Thumbnail.Text.Length <= 0 || TB_Thumbnail.Text == string.Empty || TB_Thumbnail.Text == null)
                 return;
             hairData.Thumbnail = $"{Thumbnail_Path.Text.Replace("\\", "/")}/{TB_Thumbnail.Text}.{TB_Thumbnail.Text}";
         }
@@ -141,9 +141,9 @@ namespace Project_Queen.GUI.Controls
 
         private void TB_Mesh_TextChanged(object sender, EventArgs e)
         {
-            if (Loading || TB_EntryName.Text.Length <= 0 || TB_EntryName.Text == string.Empty || TB_EntryName.Text == null)
+            if (Loading || TB_Mesh.Text.Length <= 0 || TB_Mesh.Text == string.Empty || TB_Mesh.Text == null)
                 return;
-            hairData.Thumbnail = $"{Thumbnail_Path.Text.Replace("\\", "/")}/{TB_Thumbnail.Text}.{TB_Thumbnail.Text}";
+            hairData.Mesh = $"{Mesh_Path.Text.Replace("\\", "/")}/{TB_Mesh.Text}.{TB_Mesh.Text}";
         }
     }
 }
