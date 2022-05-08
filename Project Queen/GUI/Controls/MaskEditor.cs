@@ -51,10 +51,20 @@ namespace Project_Queen.GUI.Controls
             CB_HideHair.Checked = false;
         }
 
+        private void Enable()
+        {
+            this.ForAllControls(c =>
+            {
+                if (c.Enabled == false)
+                    c.Enabled = true;
+            });
+        }
+
         private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
         {
             Loading = true;
             Reset();
+            Enable();
             maskData = MaskListData.Masks[treeView1.SelectedNode.Index];
             TB_EntryName.Text = maskData.Name;
             TB_Thumbnail.Text = maskData.Thumbnail.Split('.').Last();

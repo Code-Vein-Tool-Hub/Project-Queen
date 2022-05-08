@@ -95,6 +95,7 @@
             // 
             // button3
             // 
+            this.button3.Enabled = false;
             this.button3.Location = new System.Drawing.Point(407, 65);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(50, 20);
@@ -105,6 +106,7 @@
             // 
             // TB_Thumbnail
             // 
+            this.TB_Thumbnail.Enabled = false;
             this.TB_Thumbnail.Location = new System.Drawing.Point(90, 66);
             this.TB_Thumbnail.Name = "TB_Thumbnail";
             this.TB_Thumbnail.Size = new System.Drawing.Size(311, 20);
@@ -122,6 +124,7 @@
             // 
             // button4
             // 
+            this.button4.Enabled = false;
             this.button4.Location = new System.Drawing.Point(407, 112);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(50, 20);
@@ -151,6 +154,7 @@
             // 
             // TB_Mesh
             // 
+            this.TB_Mesh.Enabled = false;
             this.TB_Mesh.Location = new System.Drawing.Point(90, 112);
             this.TB_Mesh.Name = "TB_Mesh";
             this.TB_Mesh.Size = new System.Drawing.Size(311, 20);
@@ -179,6 +183,7 @@
             // 
             // TB_EntryName
             // 
+            this.TB_EntryName.Enabled = false;
             this.TB_EntryName.Location = new System.Drawing.Point(90, 20);
             this.TB_EntryName.Name = "TB_EntryName";
             this.TB_EntryName.Size = new System.Drawing.Size(131, 20);
@@ -220,6 +225,7 @@
             // CB_HideHair
             // 
             this.CB_HideHair.AutoSize = true;
+            this.CB_HideHair.Enabled = false;
             this.CB_HideHair.Location = new System.Drawing.Point(90, 217);
             this.CB_HideHair.Name = "CB_HideHair";
             this.CB_HideHair.Size = new System.Drawing.Size(15, 14);
@@ -230,6 +236,7 @@
             // CB_HideFace
             // 
             this.CB_HideFace.AutoSize = true;
+            this.CB_HideFace.Enabled = false;
             this.CB_HideFace.Location = new System.Drawing.Point(90, 193);
             this.CB_HideFace.Name = "CB_HideFace";
             this.CB_HideFace.Size = new System.Drawing.Size(15, 14);
@@ -269,6 +276,7 @@
             // 
             // NUD_Z
             // 
+            this.NUD_Z.Enabled = false;
             this.NUD_Z.Location = new System.Drawing.Point(273, 164);
             this.NUD_Z.Maximum = new decimal(new int[] {
             10000,
@@ -287,6 +295,7 @@
             // 
             // NUD_Y
             // 
+            this.NUD_Y.Enabled = false;
             this.NUD_Y.Location = new System.Drawing.Point(188, 164);
             this.NUD_Y.Maximum = new decimal(new int[] {
             10000,
@@ -305,6 +314,7 @@
             // 
             // NUD_X
             // 
+            this.NUD_X.Enabled = false;
             this.NUD_X.Location = new System.Drawing.Point(104, 164);
             this.NUD_X.Maximum = new decimal(new int[] {
             10000,
@@ -363,6 +373,7 @@
             // 
             // TB_CheckFlag
             // 
+            this.TB_CheckFlag.Enabled = false;
             this.TB_CheckFlag.Location = new System.Drawing.Point(90, 138);
             this.TB_CheckFlag.Name = "TB_CheckFlag";
             this.TB_CheckFlag.Size = new System.Drawing.Size(131, 20);

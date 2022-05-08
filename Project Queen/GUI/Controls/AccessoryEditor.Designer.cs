@@ -204,6 +204,7 @@
             // 
             // NUD_Anim
             // 
+            this.NUD_Anim.Enabled = false;
             this.NUD_Anim.Location = new System.Drawing.Point(113, 219);
             this.NUD_Anim.Minimum = new decimal(new int[] {
             100,
@@ -228,6 +229,7 @@
             // CB_ScaleNeg
             // 
             this.CB_ScaleNeg.AutoSize = true;
+            this.CB_ScaleNeg.Enabled = false;
             this.CB_ScaleNeg.Location = new System.Drawing.Point(113, 287);
             this.CB_ScaleNeg.Name = "CB_ScaleNeg";
             this.CB_ScaleNeg.Size = new System.Drawing.Size(15, 14);
@@ -248,6 +250,7 @@
             // CB_Transformable
             // 
             this.CB_Transformable.AutoSize = true;
+            this.CB_Transformable.Enabled = false;
             this.CB_Transformable.Location = new System.Drawing.Point(113, 267);
             this.CB_Transformable.Name = "CB_Transformable";
             this.CB_Transformable.Size = new System.Drawing.Size(15, 14);
@@ -258,6 +261,7 @@
             // CB_Spa
             // 
             this.CB_Spa.AutoSize = true;
+            this.CB_Spa.Enabled = false;
             this.CB_Spa.Location = new System.Drawing.Point(113, 246);
             this.CB_Spa.Name = "CB_Spa";
             this.CB_Spa.Size = new System.Drawing.Size(15, 14);
@@ -316,6 +320,7 @@
             // NUD_Mesh_S_Z
             // 
             this.NUD_Mesh_S_Z.DecimalPlaces = 4;
+            this.NUD_Mesh_S_Z.Enabled = false;
             this.NUD_Mesh_S_Z.Location = new System.Drawing.Point(211, 68);
             this.NUD_Mesh_S_Z.Maximum = new decimal(new int[] {
             10000,
@@ -335,6 +340,7 @@
             // NUD_Mesh_S_Y
             // 
             this.NUD_Mesh_S_Y.DecimalPlaces = 4;
+            this.NUD_Mesh_S_Y.Enabled = false;
             this.NUD_Mesh_S_Y.Location = new System.Drawing.Point(140, 68);
             this.NUD_Mesh_S_Y.Maximum = new decimal(new int[] {
             10000,
@@ -354,6 +360,7 @@
             // NUD_Mesh_S_X
             // 
             this.NUD_Mesh_S_X.DecimalPlaces = 4;
+            this.NUD_Mesh_S_X.Enabled = false;
             this.NUD_Mesh_S_X.Location = new System.Drawing.Point(69, 68);
             this.NUD_Mesh_S_X.Maximum = new decimal(new int[] {
             10000,
@@ -373,6 +380,7 @@
             // NUD_Mesh_T_Z
             // 
             this.NUD_Mesh_T_Z.DecimalPlaces = 4;
+            this.NUD_Mesh_T_Z.Enabled = false;
             this.NUD_Mesh_T_Z.Location = new System.Drawing.Point(211, 42);
             this.NUD_Mesh_T_Z.Maximum = new decimal(new int[] {
             10000,
@@ -392,6 +400,7 @@
             // NUD_Mesh_T_Y
             // 
             this.NUD_Mesh_T_Y.DecimalPlaces = 4;
+            this.NUD_Mesh_T_Y.Enabled = false;
             this.NUD_Mesh_T_Y.Location = new System.Drawing.Point(140, 42);
             this.NUD_Mesh_T_Y.Maximum = new decimal(new int[] {
             10000,
@@ -411,6 +420,7 @@
             // NUD_Mesh_T_X
             // 
             this.NUD_Mesh_T_X.DecimalPlaces = 4;
+            this.NUD_Mesh_T_X.Enabled = false;
             this.NUD_Mesh_T_X.Location = new System.Drawing.Point(69, 42);
             this.NUD_Mesh_T_X.Maximum = new decimal(new int[] {
             10000,
@@ -430,6 +440,7 @@
             // NUD_Mesh_R_Z
             // 
             this.NUD_Mesh_R_Z.DecimalPlaces = 4;
+            this.NUD_Mesh_R_Z.Enabled = false;
             this.NUD_Mesh_R_Z.Location = new System.Drawing.Point(211, 16);
             this.NUD_Mesh_R_Z.Maximum = new decimal(new int[] {
             10000,
@@ -449,6 +460,7 @@
             // NUD_Mesh_R_Y
             // 
             this.NUD_Mesh_R_Y.DecimalPlaces = 4;
+            this.NUD_Mesh_R_Y.Enabled = false;
             this.NUD_Mesh_R_Y.Location = new System.Drawing.Point(140, 16);
             this.NUD_Mesh_R_Y.Maximum = new decimal(new int[] {
             10000,
@@ -468,6 +480,7 @@
             // NUD_Mesh_R_X
             // 
             this.NUD_Mesh_R_X.DecimalPlaces = 4;
+            this.NUD_Mesh_R_X.Enabled = false;
             this.NUD_Mesh_R_X.Location = new System.Drawing.Point(69, 16);
             this.NUD_Mesh_R_X.Maximum = new decimal(new int[] {
             10000,
@@ -486,6 +499,7 @@
             // 
             // NUD_Cost
             // 
+            this.NUD_Cost.Enabled = false;
             this.NUD_Cost.Location = new System.Drawing.Point(113, 190);
             this.NUD_Cost.Name = "NUD_Cost";
             this.NUD_Cost.Size = new System.Drawing.Size(131, 20);
@@ -543,6 +557,7 @@
             // NUD_Ori_S_Z
             // 
             this.NUD_Ori_S_Z.DecimalPlaces = 4;
+            this.NUD_Ori_S_Z.Enabled = false;
             this.NUD_Ori_S_Z.Location = new System.Drawing.Point(211, 68);
             this.NUD_Ori_S_Z.Maximum = new decimal(new int[] {
             10000,
@@ -562,6 +577,7 @@
             // NUD_Ori_S_Y
             // 
             this.NUD_Ori_S_Y.DecimalPlaces = 4;
+            this.NUD_Ori_S_Y.Enabled = false;
             this.NUD_Ori_S_Y.Location = new System.Drawing.Point(140, 68);
             this.NUD_Ori_S_Y.Maximum = new decimal(new int[] {
             10000,
@@ -581,6 +597,7 @@
             // NUD_Ori_S_X
             // 
             this.NUD_Ori_S_X.DecimalPlaces = 4;
+            this.NUD_Ori_S_X.Enabled = false;
             this.NUD_Ori_S_X.Location = new System.Drawing.Point(69, 68);
             this.NUD_Ori_S_X.Maximum = new decimal(new int[] {
             10000,
@@ -600,6 +617,7 @@
             // NUD_Ori_T_Z
             // 
             this.NUD_Ori_T_Z.DecimalPlaces = 4;
+            this.NUD_Ori_T_Z.Enabled = false;
             this.NUD_Ori_T_Z.Location = new System.Drawing.Point(211, 42);
             this.NUD_Ori_T_Z.Maximum = new decimal(new int[] {
             10000,
@@ -619,6 +637,7 @@
             // NUD_Ori_T_Y
             // 
             this.NUD_Ori_T_Y.DecimalPlaces = 4;
+            this.NUD_Ori_T_Y.Enabled = false;
             this.NUD_Ori_T_Y.Location = new System.Drawing.Point(140, 42);
             this.NUD_Ori_T_Y.Maximum = new decimal(new int[] {
             10000,
@@ -638,6 +657,7 @@
             // NUD_Ori_T_X
             // 
             this.NUD_Ori_T_X.DecimalPlaces = 4;
+            this.NUD_Ori_T_X.Enabled = false;
             this.NUD_Ori_T_X.Location = new System.Drawing.Point(69, 42);
             this.NUD_Ori_T_X.Maximum = new decimal(new int[] {
             10000,
@@ -657,6 +677,7 @@
             // NUD_Ori_R_Z
             // 
             this.NUD_Ori_R_Z.DecimalPlaces = 4;
+            this.NUD_Ori_R_Z.Enabled = false;
             this.NUD_Ori_R_Z.Location = new System.Drawing.Point(211, 16);
             this.NUD_Ori_R_Z.Maximum = new decimal(new int[] {
             10000,
@@ -676,6 +697,7 @@
             // NUD_Ori_R_Y
             // 
             this.NUD_Ori_R_Y.DecimalPlaces = 4;
+            this.NUD_Ori_R_Y.Enabled = false;
             this.NUD_Ori_R_Y.Location = new System.Drawing.Point(140, 16);
             this.NUD_Ori_R_Y.Maximum = new decimal(new int[] {
             10000,
@@ -695,6 +717,7 @@
             // NUD_Ori_R_X
             // 
             this.NUD_Ori_R_X.DecimalPlaces = 4;
+            this.NUD_Ori_R_X.Enabled = false;
             this.NUD_Ori_R_X.Location = new System.Drawing.Point(69, 16);
             this.NUD_Ori_R_X.Maximum = new decimal(new int[] {
             10000,
@@ -772,6 +795,7 @@
             // NUD_Root_S_Z
             // 
             this.NUD_Root_S_Z.DecimalPlaces = 4;
+            this.NUD_Root_S_Z.Enabled = false;
             this.NUD_Root_S_Z.Location = new System.Drawing.Point(211, 68);
             this.NUD_Root_S_Z.Maximum = new decimal(new int[] {
             10000,
@@ -791,6 +815,7 @@
             // NUD_Root_S_Y
             // 
             this.NUD_Root_S_Y.DecimalPlaces = 4;
+            this.NUD_Root_S_Y.Enabled = false;
             this.NUD_Root_S_Y.Location = new System.Drawing.Point(140, 68);
             this.NUD_Root_S_Y.Maximum = new decimal(new int[] {
             10000,
@@ -810,6 +835,7 @@
             // NUD_Root_S_X
             // 
             this.NUD_Root_S_X.DecimalPlaces = 4;
+            this.NUD_Root_S_X.Enabled = false;
             this.NUD_Root_S_X.Location = new System.Drawing.Point(69, 68);
             this.NUD_Root_S_X.Maximum = new decimal(new int[] {
             10000,
@@ -829,6 +855,7 @@
             // NUD_Root_T_Z
             // 
             this.NUD_Root_T_Z.DecimalPlaces = 4;
+            this.NUD_Root_T_Z.Enabled = false;
             this.NUD_Root_T_Z.Location = new System.Drawing.Point(211, 42);
             this.NUD_Root_T_Z.Maximum = new decimal(new int[] {
             10000,
@@ -848,6 +875,7 @@
             // NUD_Root_T_Y
             // 
             this.NUD_Root_T_Y.DecimalPlaces = 4;
+            this.NUD_Root_T_Y.Enabled = false;
             this.NUD_Root_T_Y.Location = new System.Drawing.Point(140, 42);
             this.NUD_Root_T_Y.Maximum = new decimal(new int[] {
             10000,
@@ -867,6 +895,7 @@
             // NUD_Root_T_X
             // 
             this.NUD_Root_T_X.DecimalPlaces = 4;
+            this.NUD_Root_T_X.Enabled = false;
             this.NUD_Root_T_X.Location = new System.Drawing.Point(69, 42);
             this.NUD_Root_T_X.Maximum = new decimal(new int[] {
             10000,
@@ -886,6 +915,7 @@
             // NUD_Root_R_Z
             // 
             this.NUD_Root_R_Z.DecimalPlaces = 4;
+            this.NUD_Root_R_Z.Enabled = false;
             this.NUD_Root_R_Z.Location = new System.Drawing.Point(211, 16);
             this.NUD_Root_R_Z.Maximum = new decimal(new int[] {
             10000,
@@ -905,6 +935,7 @@
             // NUD_Root_R_Y
             // 
             this.NUD_Root_R_Y.DecimalPlaces = 4;
+            this.NUD_Root_R_Y.Enabled = false;
             this.NUD_Root_R_Y.Location = new System.Drawing.Point(140, 16);
             this.NUD_Root_R_Y.Maximum = new decimal(new int[] {
             10000,
@@ -924,6 +955,7 @@
             // NUD_Root_R_X
             // 
             this.NUD_Root_R_X.DecimalPlaces = 4;
+            this.NUD_Root_R_X.Enabled = false;
             this.NUD_Root_R_X.Location = new System.Drawing.Point(69, 16);
             this.NUD_Root_R_X.Maximum = new decimal(new int[] {
             10000,
@@ -961,6 +993,7 @@
             // 
             // CB_Slots
             // 
+            this.CB_Slots.Enabled = false;
             this.CB_Slots.FormattingEnabled = true;
             this.CB_Slots.Items.AddRange(new object[] {
             "Slot1",
@@ -975,6 +1008,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox1.Enabled = false;
             this.pictureBox1.Location = new System.Drawing.Point(29, 50);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(25, 25);
@@ -986,6 +1020,7 @@
             // EnableColour3
             // 
             this.EnableColour3.AutoSize = true;
+            this.EnableColour3.Enabled = false;
             this.EnableColour3.Location = new System.Drawing.Point(9, 112);
             this.EnableColour3.Name = "EnableColour3";
             this.EnableColour3.Size = new System.Drawing.Size(15, 14);
@@ -996,6 +1031,7 @@
             // pictureBox2
             // 
             this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox2.Enabled = false;
             this.pictureBox2.Location = new System.Drawing.Point(29, 81);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(25, 25);
@@ -1007,6 +1043,7 @@
             // EnableColour2
             // 
             this.EnableColour2.AutoSize = true;
+            this.EnableColour2.Enabled = false;
             this.EnableColour2.Location = new System.Drawing.Point(9, 81);
             this.EnableColour2.Name = "EnableColour2";
             this.EnableColour2.Size = new System.Drawing.Size(15, 14);
@@ -1027,6 +1064,7 @@
             // EnableColour1
             // 
             this.EnableColour1.AutoSize = true;
+            this.EnableColour1.Enabled = false;
             this.EnableColour1.Location = new System.Drawing.Point(9, 50);
             this.EnableColour1.Name = "EnableColour1";
             this.EnableColour1.Size = new System.Drawing.Size(15, 14);
@@ -1047,6 +1085,7 @@
             // pictureBox3
             // 
             this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox3.Enabled = false;
             this.pictureBox3.Location = new System.Drawing.Point(29, 112);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(25, 25);
@@ -1077,6 +1116,7 @@
             // 
             // TB_AttachName
             // 
+            this.TB_AttachName.Enabled = false;
             this.TB_AttachName.Location = new System.Drawing.Point(113, 164);
             this.TB_AttachName.Name = "TB_AttachName";
             this.TB_AttachName.Size = new System.Drawing.Size(131, 20);
@@ -1095,6 +1135,7 @@
             // 
             // TB_CheckFlag
             // 
+            this.TB_CheckFlag.Enabled = false;
             this.TB_CheckFlag.Location = new System.Drawing.Point(113, 138);
             this.TB_CheckFlag.Name = "TB_CheckFlag";
             this.TB_CheckFlag.Size = new System.Drawing.Size(131, 20);
@@ -1103,6 +1144,7 @@
             // 
             // button3
             // 
+            this.button3.Enabled = false;
             this.button3.Location = new System.Drawing.Point(484, 66);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(50, 20);
@@ -1113,6 +1155,7 @@
             // 
             // TB_Thumbnail
             // 
+            this.TB_Thumbnail.Enabled = false;
             this.TB_Thumbnail.Location = new System.Drawing.Point(113, 66);
             this.TB_Thumbnail.Name = "TB_Thumbnail";
             this.TB_Thumbnail.Size = new System.Drawing.Size(365, 20);
@@ -1130,6 +1173,7 @@
             // 
             // button4
             // 
+            this.button4.Enabled = false;
             this.button4.Location = new System.Drawing.Point(484, 113);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(50, 20);
@@ -1159,6 +1203,7 @@
             // 
             // TB_Mesh
             // 
+            this.TB_Mesh.Enabled = false;
             this.TB_Mesh.Location = new System.Drawing.Point(113, 112);
             this.TB_Mesh.Name = "TB_Mesh";
             this.TB_Mesh.Size = new System.Drawing.Size(365, 20);
@@ -1187,6 +1232,7 @@
             // 
             // TB_EntryName
             // 
+            this.TB_EntryName.Enabled = false;
             this.TB_EntryName.Location = new System.Drawing.Point(113, 20);
             this.TB_EntryName.Name = "TB_EntryName";
             this.TB_EntryName.Size = new System.Drawing.Size(131, 20);

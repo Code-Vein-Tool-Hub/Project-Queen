@@ -140,6 +140,7 @@
             // 
             // button3
             // 
+            this.button3.Enabled = false;
             this.button3.Location = new System.Drawing.Point(407, 65);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(50, 20);
@@ -150,6 +151,7 @@
             // 
             // TB_Thumbnail
             // 
+            this.TB_Thumbnail.Enabled = false;
             this.TB_Thumbnail.Location = new System.Drawing.Point(81, 66);
             this.TB_Thumbnail.Name = "TB_Thumbnail";
             this.TB_Thumbnail.Size = new System.Drawing.Size(320, 20);
@@ -167,6 +169,7 @@
             // 
             // button4
             // 
+            this.button4.Enabled = false;
             this.button4.Location = new System.Drawing.Point(407, 112);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(50, 20);
@@ -196,6 +199,7 @@
             // 
             // TB_Mesh
             // 
+            this.TB_Mesh.Enabled = false;
             this.TB_Mesh.Location = new System.Drawing.Point(81, 112);
             this.TB_Mesh.Name = "TB_Mesh";
             this.TB_Mesh.Size = new System.Drawing.Size(320, 20);
@@ -224,6 +228,7 @@
             // 
             // TB_EntryName
             // 
+            this.TB_EntryName.Enabled = false;
             this.TB_EntryName.Location = new System.Drawing.Point(81, 20);
             this.TB_EntryName.Name = "TB_EntryName";
             this.TB_EntryName.Size = new System.Drawing.Size(131, 20);
@@ -273,6 +278,7 @@
             // pictureBox2
             // 
             this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox2.Enabled = false;
             this.pictureBox2.Location = new System.Drawing.Point(27, 50);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(25, 25);
@@ -294,6 +300,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox1.Enabled = false;
             this.pictureBox1.Location = new System.Drawing.Point(27, 19);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(25, 25);
@@ -305,6 +312,7 @@
             // pictureBox7
             // 
             this.pictureBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox7.Enabled = false;
             this.pictureBox7.Location = new System.Drawing.Point(27, 205);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(25, 25);
@@ -326,6 +334,7 @@
             // pictureBox3
             // 
             this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox3.Enabled = false;
             this.pictureBox3.Location = new System.Drawing.Point(27, 81);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(25, 25);
@@ -347,6 +356,7 @@
             // pictureBox6
             // 
             this.pictureBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox6.Enabled = false;
             this.pictureBox6.Location = new System.Drawing.Point(27, 174);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(25, 25);
@@ -358,6 +368,7 @@
             // pictureBox4
             // 
             this.pictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox4.Enabled = false;
             this.pictureBox4.Location = new System.Drawing.Point(27, 112);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(25, 25);
@@ -369,6 +380,7 @@
             // pictureBox5
             // 
             this.pictureBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox5.Enabled = false;
             this.pictureBox5.Location = new System.Drawing.Point(27, 143);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(25, 25);
@@ -398,6 +410,7 @@
             // 
             // comboBox1
             // 
+            this.comboBox1.Enabled = false;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "HidePartsA",
@@ -416,6 +429,7 @@
             // 
             // treeView2
             // 
+            this.treeView2.Enabled = false;
             this.treeView2.Location = new System.Drawing.Point(6, 19);
             this.treeView2.Name = "treeView2";
             this.treeView2.ShowLines = false;
@@ -426,6 +440,7 @@
             // 
             // button8
             // 
+            this.button8.Enabled = false;
             this.button8.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.Control;
             this.button8.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.Control;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -449,6 +464,7 @@
             // 
             // button7
             // 
+            this.button7.Enabled = false;
             this.button7.Location = new System.Drawing.Point(277, 202);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(50, 20);
@@ -469,6 +485,7 @@
             // 
             // TB_HideThumbnail
             // 
+            this.TB_HideThumbnail.Enabled = false;
             this.TB_HideThumbnail.Location = new System.Drawing.Point(6, 203);
             this.TB_HideThumbnail.Name = "TB_HideThumbnail";
             this.TB_HideThumbnail.Size = new System.Drawing.Size(265, 20);
@@ -487,6 +504,7 @@
             // 
             // button5
             // 
+            this.button5.Enabled = false;
             this.button5.Location = new System.Drawing.Point(173, 19);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(61, 23);
@@ -497,6 +515,7 @@
             // 
             // button6
             // 
+            this.button6.Enabled = false;
             this.button6.Location = new System.Drawing.Point(123, 19);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(44, 23);
@@ -538,6 +557,7 @@
             // EnableColour7
             // 
             this.EnableColour7.AutoSize = true;
+            this.EnableColour7.Enabled = false;
             this.EnableColour7.Location = new System.Drawing.Point(7, 205);
             this.EnableColour7.Name = "EnableColour7";
             this.EnableColour7.Size = new System.Drawing.Size(15, 14);
@@ -548,6 +568,7 @@
             // EnableColour6
             // 
             this.EnableColour6.AutoSize = true;
+            this.EnableColour6.Enabled = false;
             this.EnableColour6.Location = new System.Drawing.Point(7, 174);
             this.EnableColour6.Name = "EnableColour6";
             this.EnableColour6.Size = new System.Drawing.Size(15, 14);
@@ -558,6 +579,7 @@
             // EnableColour5
             // 
             this.EnableColour5.AutoSize = true;
+            this.EnableColour5.Enabled = false;
             this.EnableColour5.Location = new System.Drawing.Point(7, 143);
             this.EnableColour5.Name = "EnableColour5";
             this.EnableColour5.Size = new System.Drawing.Size(15, 14);
@@ -568,6 +590,7 @@
             // EnableColour4
             // 
             this.EnableColour4.AutoSize = true;
+            this.EnableColour4.Enabled = false;
             this.EnableColour4.Location = new System.Drawing.Point(7, 112);
             this.EnableColour4.Name = "EnableColour4";
             this.EnableColour4.Size = new System.Drawing.Size(15, 14);
@@ -578,6 +601,7 @@
             // EnableColour3
             // 
             this.EnableColour3.AutoSize = true;
+            this.EnableColour3.Enabled = false;
             this.EnableColour3.Location = new System.Drawing.Point(7, 81);
             this.EnableColour3.Name = "EnableColour3";
             this.EnableColour3.Size = new System.Drawing.Size(15, 14);
@@ -588,6 +612,7 @@
             // EnableColour2
             // 
             this.EnableColour2.AutoSize = true;
+            this.EnableColour2.Enabled = false;
             this.EnableColour2.Location = new System.Drawing.Point(7, 50);
             this.EnableColour2.Name = "EnableColour2";
             this.EnableColour2.Size = new System.Drawing.Size(15, 14);
@@ -598,6 +623,7 @@
             // EnableColour1
             // 
             this.EnableColour1.AutoSize = true;
+            this.EnableColour1.Enabled = false;
             this.EnableColour1.Location = new System.Drawing.Point(7, 19);
             this.EnableColour1.Name = "EnableColour1";
             this.EnableColour1.Size = new System.Drawing.Size(15, 14);

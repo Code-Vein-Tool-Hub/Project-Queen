@@ -66,6 +66,7 @@
             // 
             // B_Thumbnail
             // 
+            this.B_Thumbnail.Enabled = false;
             this.B_Thumbnail.Location = new System.Drawing.Point(407, 65);
             this.B_Thumbnail.Name = "B_Thumbnail";
             this.B_Thumbnail.Size = new System.Drawing.Size(50, 20);
@@ -76,6 +77,7 @@
             // 
             // TB_Thumbnail
             // 
+            this.TB_Thumbnail.Enabled = false;
             this.TB_Thumbnail.Location = new System.Drawing.Point(90, 66);
             this.TB_Thumbnail.Name = "TB_Thumbnail";
             this.TB_Thumbnail.Size = new System.Drawing.Size(311, 20);
@@ -93,6 +95,7 @@
             // 
             // B_Mesh
             // 
+            this.B_Mesh.Enabled = false;
             this.B_Mesh.Location = new System.Drawing.Point(407, 112);
             this.B_Mesh.Name = "B_Mesh";
             this.B_Mesh.Size = new System.Drawing.Size(50, 20);
@@ -122,6 +125,7 @@
             // 
             // TB_Mesh
             // 
+            this.TB_Mesh.Enabled = false;
             this.TB_Mesh.Location = new System.Drawing.Point(90, 112);
             this.TB_Mesh.Name = "TB_Mesh";
             this.TB_Mesh.Size = new System.Drawing.Size(311, 20);
@@ -150,6 +154,7 @@
             // 
             // TB_EntryName
             // 
+            this.TB_EntryName.Enabled = false;
             this.TB_EntryName.Location = new System.Drawing.Point(90, 20);
             this.TB_EntryName.Name = "TB_EntryName";
             this.TB_EntryName.Size = new System.Drawing.Size(131, 20);

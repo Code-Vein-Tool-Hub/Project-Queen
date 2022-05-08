@@ -146,6 +146,15 @@ namespace Project_Queen.GUI.Controls
             ResetHide();
         }
 
+        private void Enable()
+        {
+            this.ForAllControls(c =>
+            {
+                if (c.Enabled == false)
+                    c.Enabled = true;
+            });
+        }
+
         private void ResetHide()
         {
             comboBox1.Text = string.Empty;
@@ -250,6 +259,7 @@ namespace Project_Queen.GUI.Controls
         {
             Loading = true;
             Reset();
+            Enable();
             innerData = InnerList.Inners[treeView1.SelectedNode.Index];
             TB_EntryName.Text = innerData.Name;
             TB_Thumbnail.Text = innerData.Thumbnail.Split('.').Last();

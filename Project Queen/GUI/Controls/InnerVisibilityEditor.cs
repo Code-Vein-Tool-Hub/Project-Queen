@@ -61,10 +61,20 @@ namespace Project_Queen.GUI.Controls
             }
         }
 
+        private void Enable()
+        {
+            this.ForAllControls(c =>
+            {
+                if (c.Enabled == false)
+                    c.Enabled = true;
+            });
+        }
+
         private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
         {
             Loading = true;
             Reset(true);
+            Enable();
             VisParts = VisibiltyList.partsVisibilities[treeView1.SelectedNode.Index];
             TB_Mesh.Text = VisParts.InnerKey.Split('.').Last();
             Mesh_Path.Text = Path.GetDirectoryName(VisParts.InnerKey.Replace("/", "\\"));

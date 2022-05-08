@@ -120,6 +120,15 @@ namespace Project_Queen.GUI.Controls
             }
         }
 
+        private void Enable()
+        {
+            this.ForAllControls(c =>
+           {
+               if (c.Enabled == false)
+                   c.Enabled = true;
+           });
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             using (TextInput textInput = new TextInput("Enter Name for new Inner entry"))
@@ -194,6 +203,7 @@ namespace Project_Queen.GUI.Controls
         {
             Loading = true;
             Reset();
+            Enable();
             accessoryData = accessoryList.Accessories[treeView1.SelectedNode.Index];
             TB_EntryName.Text = accessoryData.Name;
             TB_Thumbnail.Text = accessoryData.Thumbnail.Split('.').Last();

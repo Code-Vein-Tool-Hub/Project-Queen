@@ -45,9 +45,20 @@ namespace Project_Queen.GUI.Controls
             Mesh_Path.Text = string.Empty;
         }
 
+        private void Enable()
+        {
+            this.ForAllControls(c =>
+            {
+                if (c.Enabled == false)
+                    c.Enabled = true;
+            });
+        }
+
         private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
         {
             Loading = true;
+            Reset();
+            Enable();
             hairData = hairListData.HairDataList[treeView1.SelectedNode.Index];
             TB_EntryName.Text = hairData.Name;
             TB_Thumbnail.Text = hairData.Thumbnail.Split('.').Last();
