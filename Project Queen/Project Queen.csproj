@@ -601,4 +601,9 @@
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>del "$(TargetDir)*.xml"
+del "$(TargetDir)*.pdb"
+del "$(TargetDir)*.config"</PostBuildEvent>
+  </PropertyGroup>
 </Project>

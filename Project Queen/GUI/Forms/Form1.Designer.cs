@@ -73,7 +73,7 @@
             // openToolStripMenuItem
             // 
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(114, 22);
             this.openToolStripMenuItem.Text = "Open";
             this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
             // 
@@ -81,7 +81,7 @@
             // 
             this.SaveFile.Enabled = false;
             this.SaveFile.Name = "SaveFile";
-            this.SaveFile.Size = new System.Drawing.Size(180, 22);
+            this.SaveFile.Size = new System.Drawing.Size(114, 22);
             this.SaveFile.Text = "Save";
             this.SaveFile.Click += new System.EventHandler(this.SaveFile_Click);
             // 
@@ -89,14 +89,14 @@
             // 
             this.SaveFileAs.Enabled = false;
             this.SaveFileAs.Name = "SaveFileAs";
-            this.SaveFileAs.Size = new System.Drawing.Size(180, 22);
+            this.SaveFileAs.Size = new System.Drawing.Size(114, 22);
             this.SaveFileAs.Text = "Save As";
             this.SaveFileAs.Click += new System.EventHandler(this.SaveFileAs_Click);
             // 
             // jsonToolStripMenuItem
             // 
             this.jsonToolStripMenuItem.Name = "jsonToolStripMenuItem";
-            this.jsonToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.jsonToolStripMenuItem.Size = new System.Drawing.Size(114, 22);
             this.jsonToolStripMenuItem.Text = "json";
             this.jsonToolStripMenuItem.Visible = false;
             this.jsonToolStripMenuItem.Click += new System.EventHandler(this.makeColorsJsonToolStripMenuItem_Click);
@@ -157,6 +157,7 @@
             // 
             // Form1
             // 
+            this.AllowDrop = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(588, 361);
@@ -164,6 +165,8 @@
             this.Controls.Add(this.toolStrip1);
             this.Name = "Form1";
             this.Text = "Project Queen Editor";
+            this.DragDrop += new System.Windows.Forms.DragEventHandler(this.Form1_DragDrop);
+            this.DragEnter += new System.Windows.Forms.DragEventHandler(this.Form1_DragEnter);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.ResumeLayout(false);

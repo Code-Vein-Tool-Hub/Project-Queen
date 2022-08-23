@@ -39,6 +39,22 @@ namespace Project_Queen
             }
         }
 
+        private void Form1_DragDrop(object sender, DragEventArgs e)
+        {
+            string[] files = (string[])e.Data.GetData(DataFormats.FileDrop);
+            if (Path.GetExtension(files[0]) == ".uasset")
+                OpenFile(files[0]);
+        }
+
+        private void Form1_DragEnter(object sender, DragEventArgs e)
+        {
+            string[] files = (string[])e.Data.GetData(DataFormats.FileDrop);
+            if (e.Data.GetDataPresent(DataFormats.FileDrop) && Path.GetExtension(files[0]) == ".uasset") 
+                e.Effect = DragDropEffects.Copy;
+            else
+                e.Effect = DragDropEffects.None;
+        }
+
         private void OpenFile(string inpath)
         {
             if (panel1.Controls.Count > 0)
@@ -76,7 +92,8 @@ namespace Project_Queen
             }
             else
             {
-                return;
+                Startup startup = new Startup();
+                MainControl = startup;
             }
 
             this.Text = $"Project Queen Editor - {Path.GetFileNameWithoutExtension(inpath)}";
