@@ -141,7 +141,7 @@ namespace Project_Queen.GUI.Controls
                         Name = textInput.ReturnText,
                         Thumbnail = $"/Game/BasicAssets/Textures/T_Black.T_Black",
                         Mesh = $"/Game/BasicAssets/Meshes/SK_Null.SK_Null",
-                        MaxColor = $"EAvatarCustomizeAccessoryColorSlot::Slot1"
+                        MaxColor = $"EAvatarCustomizeAccessoryColorSlot::Slot3"
                     });
                     treeView1.Nodes.Add(textInput.ReturnText);
                 }
